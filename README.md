@@ -1,4 +1,4 @@
-# BewlyBewly
+# BewlyBewly! Ave Mujica
 
 English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 正體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
 
@@ -6,7 +6,7 @@ English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 正體中文](RE
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
 </p>
 
-<p align="center">Just make a few small changes to your Bilibili homepage.</p>
+<p align="center">Just make a few small changes to your bilibili homepage.</p>
 
 <!-- ![min1](https://github.com/hakadao/BewlyBewly/assets/33394391/951f9e2a-d0e1-452c-83a9-dc6d85c4d441)
 ![min2](https://github.com/hakadao/BewlyBewly/assets/33394391/3e75dd20-f60b-4645-b434-23a24c72959c) -->
@@ -14,96 +14,38 @@ English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 正體中文](RE
 ## 👋 Introduction
 
 > [!IMPORTANT]
-> BewlyBewly mainly focuses on page adjustments and optimization rather than improving functionally and efficiency.
+> BewlyBewly! Ave Mujica mainly focuses on page adjustments and optimization rather than improving functionally and efficiency.
 >
 > The dark mode will only be adapted to commonly used pages due to its efficiency and maintenance difficulty, while less
 > frequently used pages will not to be adapted.
 
-> [!CAUTION]
-> [Bewley](https://apps.apple.com/app/bewley/id6741677642) on the App Store is not uploaded by us and we do not endorse it. **Safari is not supported by this project.**
->
-> **Bewley has violated the MIT license used by this project (the original license of this project is not included).**
+> [!IMPORTANT]
+> BewlyBewly! Ave Mujica is a fork of [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly), aiming to provide feature updates and bug fixes after the original project was archived.
 
 > [!CAUTION]
 > If you are installing this extension, your browser will probably say that it can read your browser history.
 >
-> This is because BewlyBewly uses the ["tabs" permission](https://developer.chrome.com/docs/extensions/reference/api/tabs), which can also be used to read each tab, allowing it to know the browsing history, but it is not utilized here.
+> This is because BewlyBewly! Ave Mujica uses the ["tabs" permission](https://developer.chrome.com/docs/extensions/reference/api/tabs), which can also be used to read each tab, allowing it to know the browsing history, but it is not utilized here.
 >
 > **Some browsers will mention the worst-case scenario and the highest risks, ensuring your safety after installation.**
 > Additionally, this project is open source, so you can see what exactly what it does.
 
-BewlyBewly is a browser extension for BiliBili that aims to enhance the user experience by redesigning the BiliBili UI.
+BewlyBewly is a browser extension for bilibili that aims to enhance the user experience by redesigning the bilibili UI.
 The design is inspired by YouTube, Vision OS, and iOS, resulting in a more visually appealing and user-friendly interface.
 This project uses the [vitesse-webext](https://github.com/antfu/vitesse-webext) template for development.
 Without this template, it may not be possible to develop this project.
 
 ## ⬇️ Installation
 
-### Online Installation
-
-> [!TIP]
-> Even in the Edge browser, we strongly recommend you install it in the Chrome web store.
-> In terms of review speed, the Chrome web store is faster than Edge Add-ons.
->
-> Additionally, the Chrome Web Store version of BewlyBewly will address and fix critical bugs more quickly.
-
-- Chrome: <https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp>
-- Edge: <https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp>
-- Firefox: <https://addons.mozilla.org/en-US/firefox/addon/bewlybewly/>
-
-#### To Firefox users
-
-> [!WARNING]
-> When using the Firefox browser, remember to enable all permissions shown in the picture below for normal use of BewlyBewly
-
-<br/> <img width="655" alt="enable all bewlybewly permissions on firefox" src="https://github.com/hakadao/BewlyBewly/assets/33394391/9566aed8-040a-4435-a2ec-c61117f8e429">
-
-### Local Installation
-
-[CI](https://github.com/hakadao/BewlyBewly/actions): Automatically build with the latest code
-
-[Releases](https://github.com/hakadao/BewlyBewly/releases): Stable version
-
-#### Edge & Chrome (RECOMMENDED)
-
-> Ensure you installed [extension.zip](https://github.com/hakadao/BewlyBewly/releases) .
-
-Opening the `edge://extensions` page in the Edge or `chrome://extensions` page in Chrome,
-simply drag and drop the downloaded `extension.zip` file into the browser to complete the installation.
-
-<details>
- <summary> Another installation method for Edge & Chrome </summary>
-
-#### Edge
-
-> Ensure you installed [extension.zip](https://github.com/hakadao/BewlyBewly/releases) and decompress this file.
-
-1. Type in `edge://extensions/` in the address bar and press Enter
-2. Turn on `Developer mode` then press `Load Unpacked` <br/> <img width="655" alt="image" src="https://user-images.githubusercontent.com/33394391/232246901-e3544c16-bde2-480d-b770-ca5242793963.png">
-3. Load the decompressed extension folder in your browser
-
-#### Chrome
->
-> Ensure you installed [extension.zip](https://github.com/hakadao/BewlyBewly/releases) and decompress this file.
-
-1. Type in `chrome://extensions/` in the address bar and press Enter
-2. Turn on `Developer mode` then press `Load Unpacked` <br/> <img width="655" alt="Snipaste_2022-03-27_18-17-04" src="https://user-images.githubusercontent.com/33394391/160276882-13da0484-92c1-47dd-add8-7655c5c2bf1c.png">
-3. Load the decompressed extension folder in your browser
-
-</details>
+(To be rewritten)
 
 ## 🤝 Contribution & Build
 
-See [CONTRIBUTING.md](docs/CONTRIBUTING.md)
-
-### Contributors
-
-[![Contributors](https://contrib.rocks/image?repo=hakadao/BewlyBewly)](https://github.com/BewlyBewly/BewlyBewly/graphs/contributors)
+(To be rewritten)
 
 ## ❤️ Credits
 
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - The template used for this project
-- [UserScripts/bilibiliHome](https://github.com/indefined/UserScripts/tree/master/bilibiliHome),
-[bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) - Reference source for obtaining the access key
+- [UserScripts/bilibiliHome](https://github.com/indefined/UserScripts/tree/master/bilibiliHome), [bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) - Reference source for obtaining the access key
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Partial implementation of functionalities
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
