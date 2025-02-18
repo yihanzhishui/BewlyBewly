@@ -47,9 +47,6 @@ const handleThrottledReachBottom = useThrottleFn(() => handleReachBottom.value?.
 const handleThrottledBackToTop = useThrottleFn(() => handleBackToTop(), 1000)
 const topBarRef = ref()
 const reachTop = ref<boolean>(true)
-const isSafari = computed(() =>
-  /^(?:(?!chrome|android).)*safari/i.test(navigator.userAgent),
-)
 
 const iframeDrawerURL = ref<string>('')
 const showIframeDrawer = ref<boolean>(false)
@@ -383,7 +380,6 @@ document.head.appendChild(removeLeftQuoteIndent)
 
 <template>
   <div
-    v-if="!isSafari"
     id="bewly-wrapper"
     ref="mainAppRef"
     class="bewly-wrapper"
