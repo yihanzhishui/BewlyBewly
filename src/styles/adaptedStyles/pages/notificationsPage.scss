@@ -41,6 +41,16 @@ html.bewly-design.notificationsPage {
     }
   }
 
+  .space-left {
+    background-color: color-mix(in oklab, var(--bew-content-solid), transparent 40%);
+    backdrop-filter: var(--bew-filter-glass-1);
+  }
+
+  .space-right {
+    background-color: color-mix(in oklab, var(--bew-content-solid), transparent 60%);
+    backdrop-filter: var(--bew-filter-glass-1);
+  }
+
   .message-list::-webkit-scrollbar-thumb {
     background: rgba(120, 120, 140, 0.44);
   }
@@ -355,14 +365,6 @@ html.bewly-design.notificationsPage {
     .split-line,
     .content .chr {
       background-color: var(--bew-border-color);
-    }
-
-    .space-left {
-      background-color: color-mix(in oklab, var(--bew-content-solid), transparent 40%);
-    }
-
-    .space-right {
-      background-color: color-mix(in oklab, var(--bew-content-solid), transparent 60%);
     }
 
     .space-right .space-right-bottom .bili-im .left,
