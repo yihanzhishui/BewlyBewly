@@ -318,6 +318,46 @@ provide<BewlyAppProvider>('BEWLY_APP', {
   openIframeDrawer,
   haveScrollbar,
 })
+
+/* Add 'BewlyInternalResource' suffix to prevent conflict with local fonts. */
+const fontStyles = document.createElement('style')
+fontStyles.textContent = `
+@font-face {
+    font-family: "CJKPunctuation-BewlyInternalResource"; /* 引號、省略号 */
+    unicode-range: U+2018-2019, U+201C-201D, U+2026;
+    src: url(${browser.runtime.getURL('/assets/fonts/Geist-subset.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "CJKPunctuation-BewlyInternalResource"; /* 破折号 em dash */
+    unicode-range: U+2014, U+2E3A-2E3B;
+    src: url(${browser.runtime.getURL('/assets/fonts/Inter-subset.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "CJKPunctuation-BewlyInternalResource"; /* 破折号 2em dash、3em dash。尚古自带的太丑（太细） */
+    unicode-range: U+2E3A-2E3B;
+    src: url(${browser.runtime.getURL('/assets/fonts/ZhudouSans-subset.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "SubscriptSuperscript-BewlyInternalResource"; /* 下標上標 */
+    unicode-range: U+00B2-00B3, U+00B9, U+2070-2071, U+2074-208E, U+2090-209C;
+    src: url(${browser.runtime.getURL('/assets/fonts/Inter-subset.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "Comme-BewlyInternalResource"; /* 西文 */
+    src: url(${browser.runtime.getURL('/assets/fonts/Comme.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "ShangguSansSCVF-BewlyInternalResource"; /* CJK */
+    src: url(${browser.runtime.getURL('/assets/fonts/ShangguSansSC-VF.ttf')}) format("truetype-variations");
+}
+`
+
+document.head.appendChild(fontStyles)
 </script>
 
 <template>

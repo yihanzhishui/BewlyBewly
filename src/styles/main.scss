@@ -1,6 +1,7 @@
 * {
   outline-color: var(--bew-theme-color-80);
   font-feature-settings: "tnum";
+  line-break: auto !important; /* make the original `line-break: anywhere` not work, it breaks 2 * em dash connection */
   // outline-width: 2px;
   // outline-offset: 2px;
 }
@@ -89,7 +90,6 @@ img {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    line-break: anywhere;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     line-clamp: 2;

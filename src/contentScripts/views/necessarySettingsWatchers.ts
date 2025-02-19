@@ -53,14 +53,19 @@ export function setupNecessarySettingsWatchers() {
     [() => settings.value.customizeFont, () => settings.value.fontFamily],
     () => {
       // Set the default font family
-      if (!settings.value.customizeFont && !settings.value.fontFamily) {
-        settings.value.fontFamily = `-apple-system, BlinkMacSystemFont, Inter, "Segoe UI Variable", "Segoe UI", "Roboto Flex", Roboto, "Noto Sans", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Arial, sans-serif`
+      if (settings.value.customizeFont === 'default' && !settings.value.fontFamily) {
+        settings.value.fontFamily = `bilifont, -apple-system, BlinkMacSystemFont, InterVariable, Inter, "Segoe UI", Cantarell, "Noto Sans", "Roboto Flex", Roboto, sans-serif, ui-sans-serif, system-ui, "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", emoji`
       }
 
-      if (settings.value.customizeFont) {
+      if (settings.value.customizeFont === 'recommend') {
+        document.documentElement.style.setProperty('--bew-font-family', 'var(--bew-fonts-recommend)')
+      }
+
+      if (settings.value.customizeFont === 'custom') {
         document.documentElement.style.setProperty('--bew-font-family', settings.value.fontFamily)
       }
-      else {
+
+      if (settings.value.customizeFont !== 'custom' && settings.value.customizeFont !== 'recommend') {
         document.documentElement.style.removeProperty('--bew-font-family')
       }
     },
