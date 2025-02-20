@@ -358,6 +358,15 @@ fontStyles.textContent = `
 `
 
 document.head.appendChild(fontStyles)
+
+const removeLeftQuoteIndent = document.createElement('style')
+removeLeftQuoteIndent.textContent = `
+.video-info-container .special-text-indent[data-title^='“'],a[title^='“'],p[title^='“'],h3[title^='“'] {
+  text-indent: 0 !important;
+}
+`
+
+document.head.appendChild(removeLeftQuoteIndent)
 </script>
 
 <template>
