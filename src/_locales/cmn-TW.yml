@@ -1,7 +1,7 @@
 common:
   view_all: 檢視所有
   play_all: 全部播放
-  loading: 載入中...
+  loading: 載入中……
   undo: 復原
   view: '{count}次'
   viewWithoutNum: 次
@@ -75,7 +75,7 @@ settings:
   group_topbar: 頂欄
   group_dock: Dock
   group_sidebar: 側邊欄
-  group_sidebar_desc: 位於首頁以外的頁面右側或左側，通常有淺/深色模式切換按鈕和設定按鈕。
+  group_sidebar_desc: 位於首頁以外的頁面右側或左側，通常有淺 / 深色模式切換按鈕和設定按鈕。
   group_color: 顏色
   group_wallpaper: 背景圖片
   group_logo: LOGO
@@ -92,7 +92,7 @@ settings:
   btn:
     authorize: 授權
     revoke: 解除授權
-    open_settings: 打開設定...
+    open_settings: 打開設定……
 
   # General
   touch_screen_optimization: 觸控螢幕體驗改進
@@ -109,7 +109,7 @@ settings:
   select_language_opt:
     english: 英文
     mandarin_cn: 官话 - 简体中文
-    mandarin_tw: 官話 - 正體中文
+    mandarin_tw: 官話 - 繁體中文
     jyut: 廣東話
   customize_font: 自訂字型
   font_opt:
@@ -117,14 +117,14 @@ settings:
     recommend: 推薦
     custom: 自訂
   customize_font_desc: |-
-    對於喜歡舊字形的用戶，我們推薦 <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts (尚古字型)</a> 和 <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak (繁媛黑體)</a>。
-    這些字型還具有將簡體中文轉換為繁體/正體中文的能力。
+    對於喜歡舊字形的用戶，我們推薦 <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts（尚古字型）</a> 和 <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak（繁媛黑體）</a>。
+    這些字型還具有將簡體中文轉換為繁體中文的能力。
   override_danmaku_font: 覆蓋彈幕字型
   override_danmaku_font_desc: >
     設定彈幕字型為您的自訂字型以覆蓋預設值。影片播放器將無法在之後更改彈幕字型。
   remove_the_indent_from_chinese_punctuation: 移除中文標點符號的縮排
   remove_the_indent_from_chinese_punctuation_desc: >
-    Bilibili 預設會特別處理中文標點符號以達到左對齊。
+    bilibili 預設會特別處理中文標點符號以達到左對齊。
     如果你正在使用自訂字型，建議移除縮排。
 
   disable_frosted_glass: 停用毛玻璃效果
@@ -141,7 +141,7 @@ settings:
   close_drawer_without_pressing_esc_again: 關閉抽屜時不用再次按 <kbd>Esc</kbd> 關閉
 
   block_ads: 封鎖廣告
-  block_top_search_page_ads: 封鎖 Bilibili 搜尋頁上方的廣告
+  block_top_search_page_ads: 封鎖 bilibili 搜尋頁上方的廣告
   block_top_search_page_ads_desc: >
     有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。
     如果你不想這些內容被誤刪，請停用此選項。
@@ -154,8 +154,8 @@ settings:
   use_old_top_bar: 使用舊版頂欄
   auto_hide_top_bar: 自動隱藏頂欄
   show_top_bar_theme_color_gradient: 在頂欄顯示主題色漸變（僅在深色模式下有效）
-  show_bewly_or_bili_top_bar_switcher: 顯示 BewlyBewly/Bilibili 頂欄切換器
-  show_bewly_or_bili_page_switcher: 顯示 BewlyBewly/Bilibili 頁面切換器
+  show_bewly_or_bili_top_bar_switcher: 顯示 BewlyBewly / bilibili 頂欄切換器
+  show_bewly_or_bili_page_switcher: 顯示 BewlyBewly / bilibili 頁面切換器
   top_bar_icon_badges: 圖示標記樣式
   top_bar_icon_badges_opt:
     number: 數字
@@ -171,9 +171,9 @@ settings:
   dock_content_adjustment: Dock 內容調整
   dock_content_adjustment_desc: 第一個啟用的 Dock 項目的頁面將是起始頁面。
   dock_item_open_in_new_tab: 在新索引標籤開啟
-  dock_item_use_original_bili_web_page: 使用原版 Bilibili 網頁
+  dock_item_use_original_bili_web_page: 使用原版 bilibili 網頁
   disable_dock_glowing_effect: 關閉 Dock 發光效果
-  disable_light_dark_mode_switcher: 關閉淺/深色模式切換按鈕
+  disable_light_dark_mode_switcher: 關閉淺 / 深色模式切換按鈕
   move_back_to_top_and_refresh_to_dock: 將返回頂部和重新整理按鈕移動到 Dock
   sidebar_position: 側邊欄位置
   auto_hide_sidebar: 自動隱藏側邊欄
@@ -225,7 +225,7 @@ settings:
     授權使用後能在首頁推送 bilibili 手機端推介演算法的影片，授權 key 的有效期約為一個月，過了有效期後，請記得重新取得授權以取得 access
     key。
   authorize_app_more_info_access_key: 關於 access key
-  scan_qrcode_desc: 使用 Bilibili 手機應用程式掃描這個 QR Code，以授權取得 access key。
+  scan_qrcode_desc: 使用 bilibili 手機應用程式掃描這個 QR Code，以授權取得 access key。
 
   disable_filters_for_followed_users: 正在跟隨的使用者不受過濾條件限制
   disable_filters_for_followed_users_desc: >
@@ -269,9 +269,9 @@ settings:
   # Common
   topbar_visibility: 頂欄可視性
   topbar_visibility_desc: 如果你正在使用 Bilibili Evolved 的頂欄，你可以在這裡關閉 BewlyBewly 的頂欄。
-  use_original_bilibili_homepage: 使用原版 Bilibili 首頁
+  use_original_bilibili_homepage: 使用原版 bilibili 首頁
   use_original_bilibili_homepage_desc: 當您變更此設定後，如果在首頁上，頁面將自動重新整理！
-  use_original_bilibili_topbar: 使用原版 Bilibili 頂欄
+  use_original_bilibili_topbar: 使用原版 bilibili 頂欄
   adapt_to_other_page_styles: 適應其他頁面風格
   adapt_to_other_page_styles_desc: 適應一些常見頁面，以配合 BewlyBewly 主題。
   # Bilibili Evolved
@@ -297,7 +297,7 @@ auth:
 
 topbar:
   switch_to_bewly_top_bar: 切換到 BewlyBewly 頂部欄
-  switch_to_bili_top_bar: 切換到 Bilibili/Bilibili-Evolved 頂部欄
+  switch_to_bili_top_bar: 切換到 bilibili / Bilibili-Evolved 頂部欄
 
   sign_in: 登入
   notifications: 通知
@@ -353,7 +353,7 @@ topbar:
     following: 追蹤中
     followers: 粉絲
     posts: 動態
-    bilibili_premium: Bilibili 大會員
+    bilibili_premium: bilibili 大會員
     account_settings: 帳戶設定
     uploads_manager: 內容管理
     b_coins_wallet: B幣錢包

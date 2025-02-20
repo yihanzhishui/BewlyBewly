@@ -1,7 +1,7 @@
 common:
   view_all: 睇晒佢哋
   play_all: 播晒佢哋
-  loading: 撈緊...
+  loading: 撈緊……
   undo: 整返返去
   view: '{count}次'
   viewWithoutNum: 次
@@ -92,7 +92,7 @@ settings:
   btn:
     authorize: 授權
     revoke: 解除授權
-    open_settings: 打開設定...
+    open_settings: 打開設定……
 
   # General
   touch_screen_optimization: 觸控螢幕體驗改進
@@ -109,7 +109,7 @@ settings:
   select_language_opt:
     english: 英文
     mandarin_cn: 官话 - 简体中文
-    mandarin_tw: 官話 - 正體中文
+    mandarin_tw: 官話 - 繁體中文
     jyut: 廣東話
   customize_font: 自訂字型
   font_opt:
@@ -117,14 +117,14 @@ settings:
     recommend: 推薦
     custom: 自訂
   customize_font_desc: |-
-    對於舊字形嘅用戶，我哋推介 <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts (尚古字型)</a> 同 <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak (繁媛黑體)</a>。
-    呢啲字型仲可以將簡體中文轉做繁體/正體中文。
+    對於舊字形嘅用戶，我哋推介 <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts（尚古字型）</a> 同 <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak（繁媛黑體）</a>。
+    呢啲字型仲可以將簡體中文轉做繁體中文。
   override_danmaku_font: 覆蓋彈幕字型
   override_danmaku_font_desc: >
     設定彈幕字型做你嘅自訂字型覆蓋預設值。影片播放器之後唔得改彈幕字型。
   remove_the_indent_from_chinese_punctuation: 移除中文標點符號嘅縮排
   remove_the_indent_from_chinese_punctuation_desc: >
-    Bilibili 預設會專登執吓中文標點符號，令到佢可以左對齊。如果你係用緊自訂字字型，最好係移除縮排。
+    bilibili 預設會專登執吓中文標點符號，令到佢可以左對齊。如果你係用緊自訂字字型，最好係移除縮排。
 
   disable_frosted_glass: 閂咗毛玻璃效果
   reduce_frosted_glass_blur: 降低毛玻璃模糊強度
@@ -140,7 +140,7 @@ settings:
   close_drawer_without_pressing_esc_again: 閂櫃桶嗰陣唔使再撳多次 <kbd>Esc</kbd>
 
   block_ads: 封鎖廣告
-  block_top_search_page_ads: 封鎖 Bilibili 搵嘢頁上方的廣告
+  block_top_search_page_ads: 封鎖 bilibili 搵嘢頁上方的廣告
   block_top_search_page_ads_desc: >
     有時喺搵嘢結果上高嘅廣告，其實係年結報告抑或週年報告嚟㗎。若然你唔想佢哋唔覺意俾人刪咗，就請你閂咗呢個選項啦。
 
@@ -152,8 +152,8 @@ settings:
   use_old_top_bar: 用返舊版頂部欄
   auto_hide_top_bar: 自動收埋頂部欄
   show_top_bar_theme_color_gradient: 喺頂部欄顯示主題色漸變（淨係喺深色模式下有效）
-  show_bewly_or_bili_top_bar_switcher: 顯示 BewlyBewly/Bilibili 頂部欄切換掣
-  show_bewly_or_bili_page_switcher: 顯示 BewlyBewly/Bilibili 頁面切換掣
+  show_bewly_or_bili_top_bar_switcher: 顯示 BewlyBewly / bilibili 頂部欄切換掣
+  show_bewly_or_bili_page_switcher: 顯示 BewlyBewly / bilibili 頁面切換掣
   top_bar_icon_badges: 圖標邊位標記
   top_bar_icon_badges_opt:
     number: 數字
@@ -169,7 +169,7 @@ settings:
   dock_content_adjustment: Dock 內容調整
   dock_content_adjustment_desc: 第一個啓用嘅 Dock 項個頁面會係開始頁面。
   dock_item_open_in_new_tab: 在新分頁度開啓
-  dock_item_use_original_bili_web_page: 用返原本嘅 Bilibili 網頁
+  dock_item_use_original_bili_web_page: 用返原本嘅 bilibili 網頁
   disable_dock_glowing_effect: 熄咗 Dock 發光效果去
   disable_light_dark_mode_switcher: 閂咗淺 / 深色主題切換粒掣去
   move_back_to_top_and_refresh_to_dock: 將返去頂部同重新整理粒掣擺到落 Dock 度
@@ -223,7 +223,7 @@ settings:
     授咗權嘅話，你就會收到基於 bilibili 手機版推介演算法所推介嘅內容，兼且授權 key 只有約一個月有效期，到期後記得要重新授權嚟取得存取
     access key。
   authorize_app_more_info_access_key: 關於 access key
-  scan_qrcode_desc: 用 Bilibili 流動應用程式去 scan 呢個 QR code 愛嚟授權取得 access key。
+  scan_qrcode_desc: 用 bilibili 流動應用程式去 scan 呢個 QR code 愛嚟授權取得 access key。
 
   disable_filters_for_followed_users: Follow 緊嘅人唔受啲過濾條件限制
   disable_filters_for_followed_users_desc: >
@@ -267,9 +267,9 @@ settings:
   # Common
   topbar_visibility: BewlyBewly 頂部欄可視性
   topbar_visibility_desc: 若然你係用緊 Bilibili Evolved 嘅頂部欄，你可以喺度閂咗 BewlyBewly 嘅頂部欄去。
-  use_original_bilibili_homepage: 用返原本嘅 Bilibili 主頁
+  use_original_bilibili_homepage: 用返原本嘅 bilibili 主頁
   use_original_bilibili_homepage_desc: 改咗之後，如果你喺主頁，個頁面就會自動重新整理！
-  use_original_bilibili_topbar: 用返原本嘅 Bilibili 頂部欄
+  use_original_bilibili_topbar: 用返原本嘅 bilibili 頂部欄
   adapt_to_other_page_styles: 適應其他版面風格
   adapt_to_other_page_styles_desc: 執執啲常用嘅版面，襯返 BewlyBewly 主題風格。
   # Bilibili Evolved
@@ -295,7 +295,7 @@ auth:
 
 topbar:
   switch_to_bewly_top_bar: 切換到 BewlyBewly 頂部欄
-  switch_to_bili_top_bar: 切換到 Bilibili/Bilibili-Evolved 頂部欄
+  switch_to_bili_top_bar: 切換到 bilibili / Bilibili-Evolved 頂部欄
 
   sign_in: 登入
   notifications: 通知
@@ -351,7 +351,7 @@ topbar:
     following: 跟緊
     followers: 擁躉
     posts: 動向
-    bilibili_premium: Bilibili 大會員
+    bilibili_premium: bilibili 大會員
     account_settings: 帳戶設定
     uploads_manager: 內容管理
     b_coins_wallet: B銀荷包

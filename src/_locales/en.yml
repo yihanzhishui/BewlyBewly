@@ -1,7 +1,7 @@
 common:
   view_all: View ALL
   play_all: Play ALL
-  loading: Loading...
+  loading: Loading…
   undo: UNDO
   view: no view | {count} view | {count} views
   viewWithoutNum: ' views'
@@ -75,7 +75,7 @@ settings:
   group_topbar: Top Bar
   group_dock: Dock
   group_sidebar: Sidebar
-  group_sidebar_desc: Located on the right or left side of pages other than the homepage, typically includes a light/dark mode toggle button and settings button.
+  group_sidebar_desc: Located on the right or left side of pages other than the homepage, typically includes a light / dark mode toggle button and settings button.
   group_color: Color
   group_wallpaper: Wallpaper
   group_logo: LOGO
@@ -94,7 +94,7 @@ settings:
   btn:
     authorize: Authorize
     revoke: Revoke
-    open_settings: Open Settings...
+    open_settings: Open Settings…
 
   # General
   touch_screen_optimization: Touch screen optimization
@@ -119,14 +119,14 @@ settings:
     recommend: Recommend
     custom: Custom
   customize_font_desc: |-
-    For users who favor the traditional style of Chinese characters, we recommend <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts (尚古字體)</a> and <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak (繁媛黑體)</a>.
+    For users who favor the old form of Chinese characters, we recommend <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts (尚古字体)</a> and <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak (繁媛黑體)</a>.
     These fonts also possess the capability to convert simplified Chinese into traditional characters.
   override_danmaku_font: Override danmaku font
   override_danmaku_font_desc: >
     Set the danmaku font to your customized font to override the default. The video player won't be able to change it afterwards.
   remove_the_indent_from_chinese_punctuation: Remove the indent from Chinese punctuation
   remove_the_indent_from_chinese_punctuation_desc: >
-    By default, Bilibili will specifically handle Chinese punctuation to achieve left alignment.
+    By default, bilibili will specifically handle Chinese punctuation to achieve left alignment.
     If you are using a custom font, it is recommended to remove the indent.
 
   disable_frosted_glass: Disable frosted glass effect
@@ -143,7 +143,7 @@ settings:
   close_drawer_without_pressing_esc_again: Close the drawer without pressing <kbd>Esc</kbd> again
 
   block_ads: Block ads
-  block_top_search_page_ads: Block Bilibili top search page ads
+  block_top_search_page_ads: Block bilibili top search page ads
   block_top_search_page_ads_desc: >
     Sometimes, the ads above search results are actually year-end summaries or annual reports.
     If you don't want these to be accidentally removed, please disable this option.
@@ -156,8 +156,8 @@ settings:
   use_old_top_bar: Use the old top bar
   auto_hide_top_bar: Automatically hide the top bar
   show_top_bar_theme_color_gradient: Show theme color gradient in top bar (only works in dark mode)
-  show_bewly_or_bili_top_bar_switcher: Show BewlyBewly/Bilibili top bar switcher
-  show_bewly_or_bili_page_switcher: Show BewlyBewly/Bilibili page switcher
+  show_bewly_or_bili_top_bar_switcher: Show BewlyBewly / bilibili top bar switcher
+  show_bewly_or_bili_page_switcher: Show BewlyBewly / bilibili page switcher
   top_bar_icon_badges: Icon badges
   top_bar_icon_badges_opt:
     number: Number
@@ -173,9 +173,9 @@ settings:
   dock_content_adjustment: Dock content adjustment
   dock_content_adjustment_desc: The page of the first activated dock item will be the startup page.
   dock_item_open_in_new_tab: Open in new tab
-  dock_item_use_original_bili_web_page: Use the original Bilibili web page
+  dock_item_use_original_bili_web_page: Use the original bilibili web page
   disable_dock_glowing_effect: Disable the dock glowing effect
-  disable_light_dark_mode_switcher: Disable light/dark mode switcher
+  disable_light_dark_mode_switcher: Disable light / dark mode switcher
   move_back_to_top_and_refresh_to_dock: Move the back-to-top and refresh buttons to the dock
   sidebar_position: Sidebar position
   auto_hide_sidebar: Automatically hide the sidebar
@@ -227,7 +227,7 @@ settings:
     After authentication, you will receive the video recommendations based on the bilibili app recommendation algorithm.
     The access key is valid for about one month. After that, remember to re-authorize the BewlyBewly to use the access key.
   authorize_app_more_info_access_key: More information about the access key
-  scan_qrcode_desc: Use the Bilibili mobile app to scan this QR code in order to authorize the access key.
+  scan_qrcode_desc: Use the bilibili mobile app to scan this QR code in order to authorize the access key.
 
   disable_filters_for_followed_users: Disable filters for followed users
   disable_filters_for_followed_users_desc: >
@@ -273,9 +273,9 @@ settings:
   # Common
   topbar_visibility: BewlyBewly's top bar visibility
   topbar_visibility_desc: If you are using Bilibili Evolved's top bar, you can turn BewlyBewly's top bar off here.
-  use_original_bilibili_homepage: Use the original Bilibili homepage
+  use_original_bilibili_homepage: Use the original bilibili homepage
   use_original_bilibili_homepage_desc: After you change it, the page will automatically refresh if you are on the homepage!
-  use_original_bilibili_topbar: Use the original Bilibili top bar
+  use_original_bilibili_topbar: Use the original bilibili top bar
   adapt_to_other_page_styles: Adapt to other page styles
   adapt_to_other_page_styles_desc: Adapt to some common pages to match with the BewlyBewly theme.
   # Bilibili Evolved
@@ -301,7 +301,7 @@ auth:
 
 topbar:
   switch_to_bewly_top_bar: Switch to BewlyBewly top bar
-  switch_to_bili_top_bar: Switch to BiliBili/Bilibili-Evolved top bar
+  switch_to_bili_top_bar: Switch to bilibili / Bilibili-Evolved top bar
 
   sign_in: Sign in
   notifications: Notifications
@@ -357,7 +357,7 @@ topbar:
     following: FOLLOWING
     followers: FOLLOWERS
     posts: POSTS
-    bilibili_premium: Bilibili Premium
+    bilibili_premium: bilibili Premium
     account_settings: Account settings
     uploads_manager: Uploads manager
     b_coins_wallet: B-coins wallet
