@@ -109,7 +109,7 @@ export interface Settings {
 
 export const originalSettings: Settings = {
   touchScreenOptimization: false,
-  enableGridLayoutSwitcher: true,
+  enableGridLayoutSwitcher: false,
   enableHorizontalScrolling: false,
 
   language: '',
@@ -118,8 +118,8 @@ export const originalSettings: Settings = {
   overrideDanmakuFont: true,
   removeTheIndentFromChinesePunctuation: false,
 
-  disableFrostedGlass: true,
-  reduceFrostedGlassBlur: false,
+  disableFrostedGlass: false,
+  reduceFrostedGlassBlur: true,
 
   // Link Opening Behavior
   videoCardLinkOpenMode: 'newTab',
@@ -138,8 +138,8 @@ export const originalSettings: Settings = {
   useOldTopBar: false,
   autoHideTopBar: false,
   showTopBarThemeColorGradient: true,
-  showBewlyOrBiliTopBarSwitcher: true,
-  showBewlyOrBiliPageSwitcher: true,
+  showBewlyOrBiliTopBarSwitcher: false,
+  showBewlyOrBiliPageSwitcher: false,
   topBarIconBadges: 'number',
   openNotificationsPageAsDrawer: true,
 
