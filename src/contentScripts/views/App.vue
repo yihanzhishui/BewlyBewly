@@ -257,7 +257,13 @@ function openIframeDrawer(url: string) {
   const currentUrl = new URL(location.href)
   const destination = new URL(url)
 
-  if (!isSameOrigin(currentUrl, destination)) {
+  try {
+    if (!isSameOrigin(currentUrl, destination)) {
+      openLinkToNewTab(url)
+      return
+    }
+  }
+  catch {
     openLinkToNewTab(url)
     return
   }
