@@ -123,9 +123,7 @@ settings:
   override_danmaku_font_desc: >
     設定彈幕字型為您的自訂字型以覆蓋預設值。影片播放器將無法在之後更改彈幕字型。
   remove_the_indent_from_chinese_punctuation: 移除中文標點符號的縮排
-  remove_the_indent_from_chinese_punctuation_desc: >
-    bilibili 預設會特別處理中文標點符號以達到左對齊。
-    如果你正在使用自訂字型，建議移除縮排。
+  remove_the_indent_from_chinese_punctuation_desc: bilibili 預設會特別處理中文標點符號以達到左對齊。如果你正在使用自訂字型，建議移除縮排。
 
   disable_frosted_glass: 停用毛玻璃效果
   reduce_frosted_glass_blur: 降低毛玻璃模糊強度
@@ -142,9 +140,7 @@ settings:
 
   block_ads: 封鎖廣告
   block_top_search_page_ads: 封鎖 bilibili 搜尋頁上方的廣告
-  block_top_search_page_ads_desc: >
-    有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。
-    如果你不想這些內容被誤刪，請停用此選項。
+  block_top_search_page_ads_desc: 有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。如果你不想這些內容被誤刪，請停用此選項。
 
   enable_video_preview: 啟用影片預覽功能（如果可以的話）
   enable_video_ctrl_bar_on_video_card: 在影片卡片上顯示影片控制欄
@@ -188,7 +184,7 @@ settings:
   theme_color: 主題色
   gradient_theme_color_background: 在深色模式下使用漸層主題色作為背景
   wallpaper_mode: 背景圖片模式
-  wallpaper_mode_desc: '使用網址: 直接使用網路圖片的網址來設定背景圖片。'
+  wallpaper_mode_desc: 使用網址：直接使用網路圖片的網址來設定背景圖片。
   wallpaper_mode_opt:
     build_in: 內建
     by_url: 使用網址
@@ -201,9 +197,7 @@ settings:
   wallpaper_mask_opacity: 背景遮蔽透明度調節
   wallpaper_blur_intensity: 背景模糊強度調節
   customize_css: 自訂 CSS
-  customize_css_desc: |-
-    如果你不熟悉 CSS，請不要修改 CSS。否則可能會導致意外的顯示問題。
-    如果你在修改 CSS 後遇到任何問題，請重新安裝 BewlyBewly。
+  customize_css_desc: 如果你不熟悉 CSS，請不要修改 CSS。否則可能會導致意外的顯示問題。如果你在修改 CSS 後遇到任何問題，請重新安裝 BewlyBewly。
 
   # Search page
   logo_color: Logo 顏色
@@ -415,7 +409,7 @@ video_card:
   video_removed: 影片已移除
 
 home:
-  tell_us_why: 為什麼這樣做...
+  tell_us_why: 為什麼這樣做……
   not_interested_desc: 你可以用 <kbd>↑</kbd> 和 <kbd>↓</kbd> 來選擇原因，或者直接使用數字鍵來選擇原因，按 <kbd>Enter</kbd> 就直接提交。
 
   for_you: 為你推薦

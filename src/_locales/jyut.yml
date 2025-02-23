@@ -123,8 +123,7 @@ settings:
   override_danmaku_font_desc: >
     設定彈幕字型做你嘅自訂字型覆蓋預設值。影片播放器之後唔得改彈幕字型。
   remove_the_indent_from_chinese_punctuation: 移除中文標點符號嘅縮排
-  remove_the_indent_from_chinese_punctuation_desc: >
-    bilibili 預設會專登執吓中文標點符號，令到佢可以左對齊。如果你係用緊自訂字字型，最好係移除縮排。
+  remove_the_indent_from_chinese_punctuation_desc: bilibili 預設會專登執吓中文標點符號，令到佢可以左對齊。如果你係用緊自訂字字型，最好係移除縮排。
 
   disable_frosted_glass: 閂咗毛玻璃效果
   reduce_frosted_glass_blur: 降低毛玻璃模糊強度
@@ -141,8 +140,7 @@ settings:
 
   block_ads: 封鎖廣告
   block_top_search_page_ads: 封鎖 bilibili 搵嘢頁上方的廣告
-  block_top_search_page_ads_desc: >
-    有時喺搵嘢結果上高嘅廣告，其實係年結報告抑或週年報告嚟㗎。若然你唔想佢哋唔覺意俾人刪咗，就請你閂咗呢個選項啦。
+  block_top_search_page_ads_desc: 有時喺搵嘢結果上高嘅廣告，其實係年結報告抑或週年報告嚟㗎。若然你唔想佢哋唔覺意俾人刪咗，就請你閂咗呢個選項啦。
 
   enable_video_preview: 使用影片預覽功能（若然得嘅話）
   enable_video_ctrl_bar_on_video_card: 喺影片卡片上顯示影片控制欄
@@ -186,7 +184,7 @@ settings:
   theme_color: 主題色
   gradient_theme_color_background: 使用漸層主題色作為深色模式嘅背景
   wallpaper_mode: 背景圖片模式
-  wallpaper_mode_desc: '使用網址: 直接用網上圖片嘅網址嚟到設定背景圖片。'
+  wallpaper_mode_desc: 使用網址：直接用網上圖片嘅網址嚟到設定背景圖片。
   wallpaper_mode_opt:
     build_in: 內建
     by_url: 使用網址
@@ -199,9 +197,7 @@ settings:
   wallpaper_mask_opacity: 背景遮蔽透明度調節
   wallpaper_blur_intensity: 背景模糊強度調節
   customize_css: 自訂 CSS
-  customize_css_desc: |-
-    若然你唔係幾識 CSS，請唔好立亂去改 CSS。唔係嘅話可能會搞到個頁面亂晒。
-    若然你執咗 CSS 之後遇到任何問題，唔該重新單個 BewlyBewly。
+  customize_css_desc: 若然你唔係幾識 CSS，請唔好立亂去改 CSS。唔係嘅話可能會搞到個頁面亂晒。若然你執咗 CSS 之後遇到任何問題，唔該重新單個 BewlyBewly。
 
   # Search page
   logo_color: Logo 顏色
@@ -413,7 +409,7 @@ video_card:
   video_removed: 經已鏟咗條片
 
 home:
-  tell_us_why: 點解噉做...
+  tell_us_why: 點解噉做……
   not_interested_desc: 你可以用 <kbd>↑</kbd> 同 <kbd>↓</kbd> 嚟揀個理由，抑或用數字鍵嚟直接揀理由，撳 <kbd>Enter</kbd> 就直接提交。
 
   for_you: 估你心水
