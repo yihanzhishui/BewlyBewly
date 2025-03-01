@@ -74,7 +74,7 @@ function handleResetSettings() {
 }
 
 async function checkGitHubRelease() {
-  const apiUrl = `https://api.github.com/repos/BewlyBewly/BewlyBewly/releases/latest`
+  const apiUrl = `https://api.github.com/repos/VentusUta/BewlyBewly-AveMujica/releases/latest`
 
   try {
     const response = await fetch(apiUrl)
@@ -105,7 +105,7 @@ async function checkGitHubRelease() {
 
         <a
           v-if="hasNewVersion"
-          href="https://github.com/hakadao/BewlyBewly/releases" target="_blank"
+          href="https://github.com/VentusUta/BewlyBewly-AveMujica/releases" target="_blank"
           pos="absolute bottom-0 right-0" transform="translate-x-50%" un-text="xs $bew-text-1" p="y-1 x-2" bg="$bew-fill-1"
           rounded-12
         >
@@ -114,7 +114,7 @@ async function checkGitHubRelease() {
       </div>
       <section text-2xl text-center mt-2>
         <p flex="inline gap-2" fw-900>
-          <span>BewlyBewly</span>
+          <span>BewlyBewly&excl; Ave Mujica</span>
           <span
             v-if="isDev"
             inline-block text="$bew-warning-color"
@@ -124,7 +124,7 @@ async function checkGitHubRelease() {
         </p>
         <p text-center>
           <a
-            href="https://github.com/hakadao/BewlyBewly/releases" target="_blank"
+            href="https://github.com/VentusUta/BewlyBewly-AveMujica/releases" target="_blank"
             un-text="sm color-$bew-text-2 hover:color-$bew-text-3"
           >
             v{{ version }}

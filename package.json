@@ -5,8 +5,8 @@
   "version": "0.40.6",
   "private": true,
   "packageManager": "pnpm@9.5.0",
-  "description": "Just make a few small changes to your Bilibili homepage.",
-  "homepage": "https://github.com/hakadao/BewlyBewly",
+  "description": "Just make a few small changes to your bilibili homepage.",
+  "homepage": "https://github.com/VentusUta/BewlyBewly-AveMujica",
   "scripts": {
     "dev": "npm run clear && cross-env NODE_ENV=development run-p dev:*",
     "dev-firefox": "npm run clear-firefox && cross-env NODE_ENV=development FIREFOX=true run-p dev:*",
