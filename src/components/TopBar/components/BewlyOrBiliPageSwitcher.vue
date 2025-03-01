@@ -16,8 +16,8 @@ const options = readonly([
     useOriginalBiliPage: false,
   },
   {
-    name: 'BiliBili',
-    shortName: 'Bili',
+    name: 'bilibili',
+    shortName: 'bili',
     useOriginalBiliPage: true,
   },
 ])
