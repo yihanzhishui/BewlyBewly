@@ -276,9 +276,6 @@ settings:
 
   # About
   links: 拎
-  sponsor: 贊助
-  sponsor_desc: 鍾意呢份專案又想佢愈做愈好？可以考慮贊助吓！你嘅支持就係呢份專案發展嘅動力。
-  afdian: 愛發電
   import_settings: 匯入設定
   export_settings: 匯出設定
   export_settings_desc: 一啲敏感性資訊，例如 access key，可能要你攞多次先至得。
@@ -286,6 +283,7 @@ settings:
   reset_settings_confirm: |-
     重設設定？
     噉做冇得返轉頭噃，你確定要重設你之前嘅設定？
+  advanced_options: 進階選項
   contributors: 貢獻者
 
 auth:

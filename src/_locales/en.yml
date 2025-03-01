@@ -280,9 +280,6 @@ settings:
 
   # About
   links: Links
-  sponsor: Sponsor
-  sponsor_desc: If you like this project and would like to see it glow, please consider sponsoring it. Your support is the driving force behind the project's development.
-  afdian: Afdian
   import_settings: Import Settings
   export_settings: Export Settings
   export_settings_desc: Some sensitive content, such as access key, will not be exported and may need to be reacquired again.
@@ -290,6 +287,7 @@ settings:
   reset_settings_confirm: |-
     Reset settings?
     This operation cannot be reversed. Are you sure you want to reset your settings?
+  advanced_options: Advanced Options
   contributors: Contributors
 
 auth:

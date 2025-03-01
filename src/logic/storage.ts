@@ -128,12 +128,12 @@ export const originalSettings: Settings = {
 
   // Link Opening Behavior
   videoCardLinkOpenMode: 'newTab',
-  topBarLinkOpenMode: 'currentTabIfNotHomepage',
-  searchBarLinkOpenMode: 'currentTabIfNotHomepage',
+  topBarLinkOpenMode: 'newTab',
+  searchBarLinkOpenMode: 'newTab',
   closeDrawerWithoutPressingEscAgain: false,
 
-  blockAds: false,
-  blockTopSearchPageAds: false,
+  blockAds: true,
+  blockTopSearchPageAds: true,
 
   enableVideoPreview: true,
   enableVideoCtrlBarOnVideoCard: false,
