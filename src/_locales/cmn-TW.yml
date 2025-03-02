@@ -114,8 +114,8 @@ settings:
   customize_font: 自訂字型
   font_opt:
     default: 預設
-    recommend: 推薦A（漢字使用傳承字形，更美觀）
-    recommend-new: 推薦B（漢字使用地區字形，更常見 / 習慣）
+    recommend: 推薦A（使用傳承字形，更美觀）
+    recommend-new: 推薦B（使用常用字形，更習慣）
     custom: 自訂
   customize_font_desc: |-
     對於喜歡舊字形的用戶，我們推薦 <a class="link" href="https://github.com/GuiWonder/Shanggu" target="_blank">Shanggu Fonts（尚古字型）</a> 和 <a class="link" href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak（繁媛黑體）</a>。
