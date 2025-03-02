@@ -1,8 +1,8 @@
 {
-  "name": "bewly-bewly",
-  "displayName": "BewlyBewly",
+  "name": "bewlybewly-avemujica",
+  "displayName": "BewlyBewly! Ave Mujica",
   "type": "module",
-  "version": "0.40.6",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@9.5.0",
   "description": "Just make a few small changes to your bilibili homepage.",
