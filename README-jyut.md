@@ -1,6 +1,6 @@
 # BewlyBewly! Ave Mujica
 
-[English](README.md) | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 正體中文](README-cmn_TW.md) | 廣東話
+[English](README.md) | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](README-cmn_TW.md) | 廣東話
 
 <p align="center" style="margin-bottom: 0px !important;">
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
@@ -19,7 +19,7 @@
 > 事關考慮到維護嘅效率同埋難度，深色模式淨係會適應常用頁面，一啲冇咁常用嘅頁面唔會適應調整
 
 > [!IMPORTANT]
-> BewlyBewly! Ave Mujica 係 [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly) 嘅一個分支（fork），目的係喺原專案封存之後提供其他更新同錯誤修復。
+> BewlyBewly! Ave Mujica 係 [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly) 嘅一個 fork（分叉），目的係原專案封存之後提供其他更新同埋錯誤修復。
 
 > [!CAUTION]
 > 如果你單緊呢個延伸功能，你嘅瀏覽器可能會話佢可以睇到你嘅瀏覽紀錄。
@@ -35,11 +35,36 @@ BewlyBewly! Ave Mujica 係一個用於 bilibili 嘅瀏覽器延伸功能，目�
 
 ## ⬇️ 單撈
 
-（待重寫）
+- Firefox 系瀏覽器：https://addons.mozilla.org/en-CA/firefox/addon/bewlybewly-avemujica/
+- Chromium 系瀏覽器：
 
 ## 🤝 貢獻同建置專案
 
-（待重寫）
+1. 克隆儲存庫
+```sh
+git clone https://github.com/VentusUta/BewlyBewly-AveMujica
+```
+
+2. 裝依賴（要確定你已經裝咗 pnpm 㗎！）
+```sh
+cd BewlyBewly-AveMujica
+pnpm install
+```
+
+3. 建構
+  - 基於 Chromium 嘅瀏覽器
+```sh
+pnpm run build
+```
+  - 基於 Firefox 嘅瀏覽器
+```sh
+pnpm run build-firefox
+```
+
+4. 打包（可以唔使嘅，最緊要你整好咗 Chromium 嘅擴充功能先！）
+```sh
+pnpm run pack
+```
 
 ## ❤️ 鳴謝
 

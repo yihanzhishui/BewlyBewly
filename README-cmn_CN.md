@@ -1,6 +1,6 @@
 # BewlyBewly! Ave Mujica
 
-[English](README.md) | 官话 - 简体中文 | [官話 - 正體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
+[English](README.md) | 官话 - 简体中文 | [官話 - 繁體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
 
 <p align="center" style="margin-bottom: 0px !important;">
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
@@ -35,11 +35,36 @@ BewlyBewly! Ave Mujica 是一个用于 bilibili 的浏览器扩展，旨在通�
 
 ## ⬇️ 安装
 
-（待重写）
+- Firefox 系浏览器：https://addons.mozilla.org/en-CA/firefox/addon/bewlybewly-avemujica/
+- Chromium 系浏览器：
 
 ## 🤝 贡献与构建项目
 
-（待重写）
+1. 克隆存储库
+```sh
+git clone https://github.com/VentusUta/BewlyBewly-AveMujica
+```
+
+2. 安装依赖（确保你已安装 pnpm！）
+```sh
+cd BewlyBewly-AveMujica
+pnpm install
+```
+
+3. 构建
+  - 基于 Chromium 的浏览器
+```sh
+pnpm run build
+```
+  - 基于 Firefox 的浏览器
+```sh
+pnpm run build-firefox
+```
+
+4. 打包（可选，确保你已构建 Chromium 的扩展！）
+```sh
+pnpm run pack
+```
 
 ## ❤️ 鸣谢
 

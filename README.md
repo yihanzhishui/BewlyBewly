@@ -1,6 +1,6 @@
 # BewlyBewly! Ave Mujica
 
-English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 正體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
+English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
 
 <p align="center" style="margin-bottom: 0px !important;">
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
@@ -37,11 +37,36 @@ Without this template, it may not be possible to develop this project.
 
 ## ⬇️ Installation
 
-(To be rewritten)
+- (based on) Firefox browsers: https://addons.mozilla.org/en-CA/firefox/addon/bewlybewly-avemujica/
+- (based on) Chromium browsers:
 
 ## 🤝 Contribution & Build
 
-(To be rewritten)
+1. Clone the repository
+```sh
+git clone https://github.com/VentusUta/BewlyBewly-AveMujica
+```
+
+2. Install dependencies (please make sure you already installed pnpm!)
+```sh
+cd BewlyBewly-AveMujica
+pnpm install
+```
+
+3. Build
+  - For Chromium-based browsers
+```sh
+pnpm run build
+```
+  - For Firefox-based browsers
+```sh
+pnpm run build-firefox
+```
+
+4. Pack (optional, please make sure you already build for Chromium!)
+```sh
+pnpm run pack
+```
 
 ## ❤️ Credits
 
