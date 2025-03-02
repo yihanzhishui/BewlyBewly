@@ -20,6 +20,9 @@
 
   --bew-fonts-recommend: bilifont, CJKPunctuation-BewlyInternalResource, SubscriptSuperscript-BewlyInternalResource,
     Comme-BewlyInternalResource, ShangguSansSCVF-BewlyInternalResource, var(--bew-fonts-fallback);
+
+  --bew-fonts-recommend-new: bilifont, CJKPunctuation-BewlyInternalResource, SubscriptSuperscript-BewlyInternalResource,
+    TASAOrbiterVF-BewlyInternalResource, NotoSansCJKSCVF-BewlyInternalResource, var(--bew-fonts-fallback);
 }
 
 .bewly-wrapper,

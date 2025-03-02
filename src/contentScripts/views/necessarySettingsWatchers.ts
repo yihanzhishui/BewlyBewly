@@ -61,11 +61,17 @@ export function setupNecessarySettingsWatchers() {
         document.documentElement.style.setProperty('--bew-font-family', 'var(--bew-fonts-recommend)')
       }
 
+      if (settings.value.customizeFont === 'recommend-new') {
+        document.documentElement.style.setProperty('--bew-font-family', 'var(--bew-fonts-recommend-new)')
+      }
+
       if (settings.value.customizeFont === 'custom') {
         document.documentElement.style.setProperty('--bew-font-family', settings.value.fontFamily)
       }
 
-      if (settings.value.customizeFont !== 'custom' && settings.value.customizeFont !== 'recommend') {
+      if (settings.value.customizeFont !== 'custom'
+        && settings.value.customizeFont !== 'recommend'
+        && settings.value.customizeFont !== 'recommend-new') {
         document.documentElement.style.removeProperty('--bew-font-family')
       }
     },

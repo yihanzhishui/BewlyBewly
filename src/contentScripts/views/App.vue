@@ -356,13 +356,23 @@ fontStyles.textContent = `
 }
 
 @font-face {
-    font-family: "Comme-BewlyInternalResource"; /* 西文 */
+    font-family: "Comme-BewlyInternalResource"; /* 西文 1 */
     src: url(${browser.runtime.getURL('/assets/fonts/Comme.woff2')}) format("woff2-variations");
 }
 
 @font-face {
-    font-family: "ShangguSansSCVF-BewlyInternalResource"; /* CJK */
+    font-family: "TASAOrbiterVF-BewlyInternalResource"; /* 西文 2 */
+    src: url(${browser.runtime.getURL('/assets/fonts/TASAOrbiterVF.woff2')}) format("woff2-variations");
+}
+
+@font-face {
+    font-family: "ShangguSansSCVF-BewlyInternalResource"; /* CJK 旧字形 */
     src: url(${browser.runtime.getURL('/assets/fonts/ShangguSansSC-VF.ttf')}) format("truetype-variations");
+}
+
+@font-face {
+    font-family: "NotoSansCJKSCVF-BewlyInternalResource"; /* CJK 新字形 */
+    src: url(${browser.runtime.getURL('/assets/fonts/NotoSansCJKsc-VF.ttf')}) format("truetype-variations");
 }
 `
 

@@ -74,6 +74,10 @@ const fontPreferenceOptions = computed(() => {
       value: 'recommend',
     },
     {
+      label: t('settings.font_opt.recommend-new'),
+      value: 'recommend-new',
+    },
+    {
       label: t('settings.font_opt.custom'),
       value: 'custom',
     },
