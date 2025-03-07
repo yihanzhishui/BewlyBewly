@@ -75,7 +75,7 @@ settings:
   group_topbar: 頂部欄
   group_dock: Dock
   group_sidebar: 側邊欄
-  group_sidebar_desc: 喺主頁以外嘅頁面嘅右邊或左邊，通常有淺/深色模式切換掣同設定掣。
+  group_sidebar_desc: 喺主頁以外嘅頁面嘅右邊或左邊，通常有淺 / 深色模式切換掣同設定掣。
   group_color: 顏色
   group_wallpaper: 背景圖片
   group_logo: LOGO
@@ -394,7 +394,6 @@ video_card:
   operation:
     not_interested: 唔鍾意
     open_in_new_tab: 新分頁開啓
-    open_in_background: 後台開啓
     open_in_new_window: 新視窗開啓
     open_in_current_tab: 目前分頁開啓
     open_in_drawer: 櫃桶開啓
