@@ -41,4 +41,3 @@ if (process.env.FIREFOX) {
 
 // Setup all message listeners
 setupApiMsgLstnrs()
-setupTabMsgLstnrs()
