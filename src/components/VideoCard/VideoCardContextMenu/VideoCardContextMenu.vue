@@ -2,11 +2,12 @@
 import type { CSSProperties } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import type { Video } from '../types'
-import DislikeDialog from './components/DislikeDialog.vue'
 import { useBewlyApp } from '~/composables/useAppProvider'
 import { Type as ThreePointV2Type } from '~/models/video/appForYou'
 import { openLinkToNewTab } from '~/utils/main'
+
+import type { Video } from '../types'
+import DislikeDialog from './components/DislikeDialog.vue'
 
 const props = defineProps<{
   video: Video
