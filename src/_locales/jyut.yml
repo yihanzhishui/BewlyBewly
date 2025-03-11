@@ -113,7 +113,7 @@ settings:
     jyut: 廣東話
   customize_font: 自訂字型
   font_opt:
-    default: 預設
+    default: 缺省
     recommend: 推薦A（用傳統字形，靚啲）
     recommend-new: 推薦B（用常見字形，習慣啲）
     custom: 自訂
