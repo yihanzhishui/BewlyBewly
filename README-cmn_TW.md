@@ -36,7 +36,7 @@ BewlyBewly! Ave Mujica 是一個針對 bilibili 的瀏覽器擴充功能，旨�
 ## ⬇️ 安裝
 
 - Firefox 系瀏覽器：https://addons.mozilla.org/en-CA/firefox/addon/bewlybewly-avemujica/
-- Chromium 系瀏覽器：
+- Chromium 系瀏覽器：https://chromewebstore.google.com/detail/bewlybewly-ave-mujica/lildghglkgcoanblbmenbefhnhifghjj
 
 ## 🤝 貢獻與建置專案
 

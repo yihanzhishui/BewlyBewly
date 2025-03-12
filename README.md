@@ -38,7 +38,7 @@ Without this template, it may not be possible to develop this project.
 ## ⬇️ Installation
 
 - (based on) Firefox browsers: https://addons.mozilla.org/en-CA/firefox/addon/bewlybewly-avemujica/
-- (based on) Chromium browsers:
+- (based on) Chromium browsers: https://chromewebstore.google.com/detail/bewlybewly-ave-mujica/lildghglkgcoanblbmenbefhnhifghjj
 
 ## 🤝 Contribution & Build
 
