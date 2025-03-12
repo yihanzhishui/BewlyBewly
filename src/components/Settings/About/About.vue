@@ -100,7 +100,7 @@ async function checkGitHubRelease() {
     <div max-w-600px mx-auto>
       <div relative w-200px m-auto>
         <img
-          :src="`${browser.runtime.getURL('/assets/bewly-vtuber-style-logo.png')}`" alt="" width="200"
+          :src="`${browser.runtime.getURL('/assets/icon-512-flat.png')}`" alt="" width="200"
         >
 
         <a
