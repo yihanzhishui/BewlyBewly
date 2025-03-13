@@ -339,7 +339,7 @@ fontStyles.textContent = `
 
 @font-face {
     font-family: "CJKPunctuation-BewlyInternalResource"; /* 破折号 em dash */
-    unicode-range: U+2014, U+2E3A-2E3B;
+    unicode-range: U+2014;
     src: url(${browser.runtime.getURL('/assets/fonts/Inter-subset.woff2')}) format("woff2-variations");
 }
 
