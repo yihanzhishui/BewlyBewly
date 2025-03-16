@@ -31,6 +31,7 @@ export interface Settings {
 
   blockAds: boolean
   blockTopSearchPageAds: boolean
+  blockVIPDanmukuStyle: boolean
 
   enableVideoCtrlBarOnVideoCard: boolean
   hoverVideoCardDelayed: boolean
@@ -134,6 +135,7 @@ export const originalSettings: Settings = {
 
   blockAds: true,
   blockTopSearchPageAds: true,
+  blockVIPDanmukuStyle: false,
 
   enableVideoPreview: true,
   enableVideoCtrlBarOnVideoCard: false,

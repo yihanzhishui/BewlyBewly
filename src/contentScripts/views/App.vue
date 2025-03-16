@@ -378,6 +378,22 @@ fontStyles.textContent = `
 
 document.head.appendChild(fontStyles)
 
+if (settings.value.blockVIPDanmukuStyle) {
+  const playerProfile = localStorage.getItem('bpx_player_profile')
+  const parsedProfile = playerProfile ? JSON.parse(playerProfile) : {}
+  const strokeType = parsedProfile.dmSetting?.fontborder || 0
+  const textShadow = (() => {
+    if (strokeType === 1)
+      return '0 0 1px #000,0 0 1px #000,0 0 1px #000'
+    if (strokeType === 2)
+      return '1px 1px 2px #000,0 0 1px #000'
+    return '1px 0 1px #000,0 1px 1px #000,0 -1px 1px #000,-1px 0 1px #000'
+  })()
+  const styleElement = document.createElement('style')
+  styleElement.innerHTML = `.bili-dm,.bili-danmaku-x-dm{--textShadow:${textShadow}}.bili-dm-vip,.bili-danmaku-x-dm-vip{background-image:none !important;text-shadow:inherit !important}`
+  document.body.appendChild(styleElement)
+}
+
 const removeLeftQuoteIndent = document.createElement('style')
 removeLeftQuoteIndent.textContent = `
 .video-info-container .special-text-indent[data-title^='“'],a[title^='“'],p[title^='“'],h3[title^='“'] {

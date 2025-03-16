@@ -158,6 +158,14 @@ async function checkGitHubRelease() {
             >
               <div i-tabler:brand-twitter /> Twitter
             </a>
+            <a
+              href="https://github.com/VentusUta/BewlyBewly-AveMujica/wiki/%E8%AE%B8%E5%8F%AF%E8%AF%81" target="_blank"
+              class="link-card"
+              bg="#f87171 dark:#fca5a5 !opacity-10 !hover:opacity-20"
+              un-text="#f87171 dark:#fca5a5"
+            >
+              <div i-tabler:license /> License
+            </a>
           </div>
         </section>
         <section w-full>

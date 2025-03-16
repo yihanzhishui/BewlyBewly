@@ -143,6 +143,7 @@ settings:
   block_ads: 封鎖廣告
   block_top_search_page_ads: 封鎖 bilibili 搜尋頁上方的廣告
   block_top_search_page_ads_desc: 有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。如果你不想這些內容被誤刪，請停用此選項。
+  block_vip_danmuku_style: 封鎖大會員彈幕的彩色樣式（使其和正常彈幕使用相同樣式）
 
   enable_video_preview: 啓用影片預覽功能（如果可以的話）
   enable_video_ctrl_bar_on_video_card: 在影片卡片上顯示影片控制欄

@@ -145,6 +145,7 @@ settings:
   block_ads: Block ads
   block_top_search_page_ads: Block bilibili top search page ads
   block_top_search_page_ads_desc: Sometimes, the ads above search results are actually year-end summaries or annual reports. If you don't want these to be accidentally removed, please disable this option.
+  block_vip_danmuku_style: Block VIP danmuku style
 
   enable_video_preview: Enable video preview feature (if possible)
   enable_video_ctrl_bar_on_video_card: Display the video control bar on the video card
