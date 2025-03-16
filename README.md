@@ -22,14 +22,6 @@ English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](RE
 > [!IMPORTANT]
 > BewlyBewly! Ave Mujica is a fork of [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly), aiming to provide feature updates and bug fixes after the original project was archived.
 
-> [!CAUTION]
-> If you are installing this extension, your browser will probably say that it can read your browser history.
->
-> This is because BewlyBewly! Ave Mujica uses the ["tabs" permission](https://developer.chrome.com/docs/extensions/reference/api/tabs), which can also be used to read each tab, allowing it to know the browsing history, but it is not utilized here.
->
-> **Some browsers will mention the worst-case scenario and the highest risks, ensuring your safety after installation.**
-> Additionally, this project is open source, so you can see what exactly what it does.
-
 BewlyBewly is a browser extension for bilibili that aims to enhance the user experience by redesigning the bilibili UI.
 The design is inspired by YouTube, Vision OS, and iOS, resulting in a more visually appealing and user-friendly interface.
 This project uses the [vitesse-webext](https://github.com/antfu/vitesse-webext) template for development.

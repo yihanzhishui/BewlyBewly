@@ -21,14 +21,6 @@
 > [!IMPORTANT]
 > BewlyBewly! Ave Mujica 係 [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly) 嘅一個 fork（分叉），目的係原專案封存之後提供其他更新同埋錯誤修復。
 
-> [!CAUTION]
-> 如果你單緊呢個延伸功能，你嘅瀏覽器可能會話佢可以睇到你嘅瀏覽紀錄。
->
-> 呢個係因爲 BewlyBewly! Ave Mujica 用咗["tabs" 權限](https://developer.chrome.com/docs/extensions/reference/api/tabs)，呢個權限亦都可以用嚟讀取每個分頁，從而知道瀏覽紀錄，但係喺呢度冇用到。
->
-> **有啲瀏覽器會同你講最壞嘅情況係點同最高嘅風險，確保你單咗之後嘅安全。**
-> 另外，呢個項目係開源嘅，所以你可以睇到佢究竟做緊乜。
-
 BewlyBewly! Ave Mujica 係一個用於 bilibili 嘅瀏覽器延伸功能，目的係透過重新設計 bilibili 嘅 UI 令到用戶體驗提升。設計靈感源於 YouTube、Vision OS 同 iOS，從而實現更具視覺吸引力同用戶友好嘅介面。
 
 呢個專案係用咗 [vitesse-webext](https://github.com/antfu/vitesse-webext) 範例進行開發。若果冇咗呢個範例，BewlyBewly 得個吉。
