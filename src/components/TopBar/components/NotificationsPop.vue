@@ -107,6 +107,7 @@ function handleClick(event: MouseEvent, item: { name: string, url: string, unrea
         rounded="$bew-radius"
         text="white xs leading-none center"
         grid="~ place-items-center"
+        whitespace-nowrap
         px-1
         min-w="16px"
         h="16px"
