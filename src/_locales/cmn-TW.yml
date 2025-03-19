@@ -65,6 +65,7 @@ settings:
   menu_search_page: 搜尋頁
   menu_about: 關於
   menu_compatibility: 相容性
+  menu_bilibili_settings: bilibili 設定
 
   # Settings group
   group_common: 常用
@@ -139,11 +140,6 @@ settings:
   video_card_link_opening_behavior: 影片和番劇卡片連結開啓行爲
   search_bar_link_opening_behavior: 搜尋欄連結開啓行爲
   close_drawer_without_pressing_esc_again: 關閉抽屜時不用再次按 <kbd>Esc</kbd> 關閉
-
-  block_ads: 封鎖廣告
-  block_top_search_page_ads: 封鎖 bilibili 搜尋頁上方的廣告
-  block_top_search_page_ads_desc: 有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。如果你不想這些內容被誤刪，請停用此選項。
-  block_vip_danmuku_style: 封鎖大會員彈幕的彩色樣式（使其和正常彈幕使用相同樣式）
 
   enable_video_preview: 啓用影片預覽功能（如果可以的話）
   enable_video_ctrl_bar_on_video_card: 在影片卡片上顯示影片控制欄
@@ -275,6 +271,15 @@ settings:
   # Bilibili Evolved
   follow_bilibili_evolved_color: 使用 Bilibili Evolved 主題色
   follow_bilibili_evolved_color_desc: 每次變更 Bilibili Evolved 主題色後，記得重新選取此選項以更新配置。
+
+  # bilibili Settings
+  content_block_settings: 內容封鎖
+  block_ads: 封鎖廣告
+  block_top_search_page_ads: 封鎖 bilibili 搜尋頁上方的廣告
+  block_top_search_page_ads_desc: 有時候，搜尋結果上方的廣告實際上是年末總結、年度報告這些。如果你不想這些內容被誤刪，請停用此選項。
+  block_vip_danmuku_style: 封鎖大會員彈幕的彩色樣式（使其和正常彈幕使用相同樣式）
+  url_trim_settings: 頁面 URL 優化
+  clean_url_argument: 清理 URL 無用參數
 
   # About
   links: 連結

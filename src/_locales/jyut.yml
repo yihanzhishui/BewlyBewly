@@ -64,6 +64,7 @@ settings:
   menu_home: 主頁
   menu_search_page: 搵嘢頁
   menu_compatibility: 相容性
+  menu_bilibili_settings: bilibili 設定
   menu_about: 關於
 
   # Settings group
@@ -139,11 +140,6 @@ settings:
   video_card_link_opening_behavior: 影片同番劇卡片連結開啓行爲
   search_bar_link_opening_behavior: 搜尋欄連結開啓行爲
   close_drawer_without_pressing_esc_again: 閂櫃桶嗰陣唔使再撳多次 <kbd>Esc</kbd>
-
-  block_ads: 封鎖廣告
-  block_top_search_page_ads: 封鎖 bilibili 搵嘢頁上方的廣告
-  block_top_search_page_ads_desc: 有時喺搵嘢結果上高嘅廣告，其實係年結報告抑或週年報告嚟㗎。若然你唔想佢哋唔覺意俾人刪咗，就請你閂咗呢個選項啦。
-  block_vip_danmuku_style: 封鎖大會員彈幕嘅彩色樣式（將佢改返做正常彈幕使用嘅樣式）
 
   enable_video_preview: 使用影片預覽功能（若然得嘅話）
   enable_video_ctrl_bar_on_video_card: 喺影片卡片上顯示影片控制欄
@@ -275,6 +271,15 @@ settings:
   # Bilibili Evolved
   follow_bilibili_evolved_color: 跟返 Bilibili Evolved 主題色
   follow_bilibili_evolved_color_desc: 每次換完 Bilibili Evolved 主題色嗰陣，記得揀多一次呢個選項愛嚟更新佈置。
+
+  # bilibili Settings
+  content_block_settings: 內容屏蔽
+  block_ads: 封鎖廣告
+  block_top_search_page_ads: 封鎖 bilibili 搵嘢頁上方的廣告
+  block_top_search_page_ads_desc: 有時喺搵嘢結果上高嘅廣告，其實係年結報告抑或週年報告嚟㗎。若然你唔想佢哋唔覺意俾人刪咗，就請你閂咗呢個選項啦。
+  block_vip_danmuku_style: 封鎖大會員彈幕嘅彩色樣式（將佢改返做正常彈幕使用嘅樣式）
+  url_trim_settings: 頁面 URL 修剪
+  clean_url_argument: 移除唔必要嘅 URL 參數
 
   # About
   links: 拎

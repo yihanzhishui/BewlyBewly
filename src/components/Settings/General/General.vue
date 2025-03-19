@@ -169,18 +169,6 @@ watch(() => settings.value.language, (newValue) => {
       </SettingsItem>
     </SettingsItemGroup>
 
-    <SettingsItemGroup>
-      <SettingsItem :title="$t('settings.block_ads')">
-        <Radio v-model="settings.blockAds" />
-      </SettingsItem>
-      <SettingsItem :title="$t('settings.block_top_search_page_ads')" :desc="$t('settings.block_top_search_page_ads_desc')">
-        <Radio v-model="settings.blockTopSearchPageAds" />
-      </SettingsItem>
-      <SettingsItem :title="$t('settings.block_vip_danmuku_style')">
-        <Radio v-model="settings.blockVIPDanmukuStyle" />
-      </SettingsItem>
-    </SettingsItemGroup>
-
     <SettingsItemGroup :title="$t('settings.group_video_card')">
       <SettingsItem :title="$t('settings.enable_video_preview')">
         <Radio v-model="settings.enableVideoPreview" />

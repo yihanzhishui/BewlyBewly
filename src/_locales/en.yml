@@ -64,6 +64,7 @@ settings:
   menu_search_page: Search Page
   menu_home: Home
   menu_compatibility: Compatibility
+  menu_bilibili_settings: bilibili Settings
   menu_about: About
 
   # Settings group
@@ -141,11 +142,6 @@ settings:
   video_card_link_opening_behavior: Video card and bangumi card link opening behavior
   search_bar_link_opening_behavior: Search bar link opening behavior
   close_drawer_without_pressing_esc_again: Close the drawer without pressing <kbd>Esc</kbd> again
-
-  block_ads: Block ads
-  block_top_search_page_ads: Block bilibili top search page ads
-  block_top_search_page_ads_desc: Sometimes, the ads above search results are actually year-end summaries or annual reports. If you don't want these to be accidentally removed, please disable this option.
-  block_vip_danmuku_style: Block VIP danmuku style
 
   enable_video_preview: Enable video preview feature (if possible)
   enable_video_ctrl_bar_on_video_card: Display the video control bar on the video card
@@ -279,6 +275,15 @@ settings:
   # Bilibili Evolved
   follow_bilibili_evolved_color: Follow the Bilibili Evolved theme color
   follow_bilibili_evolved_color_desc: After changing the theme color in Bilibili Evolved, you will need to re-select this option in order to update the theme color.
+
+  # bilibili Settings
+  content_block_settings: Content Block
+  block_ads: Block ads
+  block_top_search_page_ads: Block bilibili top search page ads
+  block_top_search_page_ads_desc: Sometimes, the ads above search results are actually year-end summaries or annual reports. If you don't want these to be accidentally removed, please disable this option.
+  block_vip_danmuku_style: Block VIP danmuku style
+  url_trim_settings: URL Trim
+  clean_url_argument: Remove unnecessary URL argument
 
   # About
   links: Links

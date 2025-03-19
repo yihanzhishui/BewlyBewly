@@ -29,10 +29,6 @@ export interface Settings {
   searchBarLinkOpenMode: 'currentTab' | 'currentTabIfNotHomepage' | 'newTab'
   closeDrawerWithoutPressingEscAgain: boolean
 
-  blockAds: boolean
-  blockTopSearchPageAds: boolean
-  blockVIPDanmukuStyle: boolean
-
   enableVideoCtrlBarOnVideoCard: boolean
   hoverVideoCardDelayed: boolean
 
@@ -110,6 +106,11 @@ export interface Settings {
   showTopBar: boolean
   useOriginalBilibiliTopBar: boolean
   useOriginalBilibiliHomepage: boolean
+
+  blockAds: boolean
+  blockTopSearchPageAds: boolean
+  blockVIPDanmukuStyle: boolean
+  cleanUrlArgument: boolean
 }
 
 export const originalSettings: Settings = {
@@ -132,10 +133,6 @@ export const originalSettings: Settings = {
   topBarLinkOpenMode: 'newTab',
   searchBarLinkOpenMode: 'newTab',
   closeDrawerWithoutPressingEscAgain: false,
-
-  blockAds: true,
-  blockTopSearchPageAds: true,
-  blockVIPDanmukuStyle: false,
 
   enableVideoPreview: true,
   enableVideoCtrlBarOnVideoCard: false,
@@ -215,6 +212,11 @@ export const originalSettings: Settings = {
   showTopBar: true,
   useOriginalBilibiliTopBar: false,
   useOriginalBilibiliHomepage: false,
+
+  blockAds: true,
+  blockTopSearchPageAds: true,
+  blockVIPDanmukuStyle: false,
+  cleanUrlArgument: false,
 }
 
 export const settings = useStorageLocal('settings', ref<Settings>(originalSettings), { mergeDefaults: true })
