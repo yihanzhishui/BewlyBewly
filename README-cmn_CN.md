@@ -32,31 +32,7 @@ BewlyBewly! Ave Mujica 是一个用于 bilibili 的浏览器扩展，旨在通�
 
 ## 🤝 贡献与构建项目
 
-1. 克隆存储库
-```sh
-git clone https://github.com/VentusUta/BewlyBewly-AveMujica
-```
-
-2. 安装依赖（确保你已安装 pnpm！）
-```sh
-cd BewlyBewly-AveMujica
-pnpm install
-```
-
-3. 构建
-  - 基于 Chromium 的浏览器
-```sh
-pnpm run build
-```
-  - 基于 Firefox 的浏览器
-```sh
-pnpm run build-firefox
-```
-
-4. 打包（可选，确保你已构建 Chromium 的扩展！）
-```sh
-pnpm run pack
-```
+见 [docs/CONTRIBUTING-cmn_CN.md](https://github.com/VentusUta/BewlyBewly-AveMujica/blob/main/docs/CONTRIBUTING-cmn_CN.md)
 
 ## ❤️ 鸣谢
 

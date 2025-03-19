@@ -138,34 +138,7 @@ Then package it to the `extension-firefox` folder
 
 ### About Branches
 
-#### Permanent Branches
-
-- **Main**: Use this branch for bug fixes, developing new features, performance improvements, or modifications to internationalization (i18n) files.
-
-#### Other Temporary Branches
-
-- **feat/**: This branch is used to submit new features
-- **doc/**: This branch is specifically used for fixing documentation, no functional changes.
-- **fix/**: This branch is specifically used for fixing errors in the dev branch.
-
-### Commit Convention
-
-You can also refer to the [Angular commit message guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
-
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation update
-- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- `refactor`: Code refactoring
-- `test`: Add or update tests
-- `chore`: Changes to the build process or toolchain
-- `perf`: Performance improvement
-- `ci`: Changes to continuous integration/delivery
-Also welcome to add scope and footer
-For example:
-`fix(dock): xxx`
-`Change description`
-`Related PR: url`
+- **main**: Use this branch for bug fixes, developing new features, performance improvements, or modifications to internationalization (i18n) files.
 
 ### I18n
 

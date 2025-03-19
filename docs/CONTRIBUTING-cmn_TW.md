@@ -138,34 +138,7 @@ pnpm build-firefox
 
 ### 關於分支
 
-#### 永久分支
-
-- **Main**：用於錯誤修正開發新功能、性能改進或修改國際化（i18n）文件的分支。
-
-#### 其他臨時分支
-
-- **feat/**：用於提交新功能的分支
-- **doc/**：專門用於修正文檔，無功能更改的分支。
-- **fix/**：專門用於修正 dev 分支中的錯誤的分支。
-
-### Commit 規範
-
-你也可以參考 [Angular commit message guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
-
-- `feat`：新功能
-- `fix`：錯誤修復
-- `docs`：文檔更新
-- `style`：不影響程式碼含義的更改（空白、格式、缺少分號等）
-- `refactor`：重構程式碼
-- `test`：添加或更新測試
-- `chore`：對構建過程或工具鏈進行更改
-- `perf`：效能改進
-- `ci`：持續集成/交付更改
-也歡迎添加範圍和腳註
-例如：
-`fix(dock)：xxx`
-`變更描述`
-`相關 PR：url`
+- **main**：用於錯誤修正開發新功能、性能改進或修改國際化（i18n）文件的分支。
 
 ### I18n
 

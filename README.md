@@ -22,7 +22,7 @@ English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](RE
 > [!IMPORTANT]
 > BewlyBewly! Ave Mujica is a fork of [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly), aiming to provide feature updates and bug fixes after the original project was archived.
 
-BewlyBewly is a browser extension for bilibili that aims to enhance the user experience by redesigning the bilibili UI.
+BewlyBewly! Ave Mujica is a browser extension for bilibili that aims to enhance the user experience by redesigning the bilibili UI.
 The design is inspired by YouTube, Vision OS, and iOS, resulting in a more visually appealing and user-friendly interface.
 This project uses the [vitesse-webext](https://github.com/antfu/vitesse-webext) template for development.
 Without this template, it may not be possible to develop this project.
@@ -34,31 +34,7 @@ Without this template, it may not be possible to develop this project.
 
 ## 🤝 Contribution & Build
 
-1. Clone the repository
-```sh
-git clone https://github.com/VentusUta/BewlyBewly-AveMujica
-```
-
-2. Install dependencies (please make sure you already installed pnpm!)
-```sh
-cd BewlyBewly-AveMujica
-pnpm install
-```
-
-3. Build
-  - For Chromium-based browsers
-```sh
-pnpm run build
-```
-  - For Firefox-based browsers
-```sh
-pnpm run build-firefox
-```
-
-4. Pack (optional, please make sure you already build for Chromium!)
-```sh
-pnpm run pack
-```
+See [docs/CONTRIBUTING.md](https://github.com/VentusUta/BewlyBewly-AveMujica/blob/main/docs/CONTRIBUTING.md).
 
 ## ❤️ Credits
 
