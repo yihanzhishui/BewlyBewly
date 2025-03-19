@@ -81,8 +81,8 @@ const settingsMenuItems = computed((): MenuItem[] => {
     },
     {
       value: MenuType.BilibiliSettings,
-      icon: 'ant-design:bilibili-outlined',
-      iconActivated: 'ant-design:bilibili-outlined',
+      icon: 'i-tabler:brand-bilibili',
+      iconActivated: 'i-tabler:brand-bilibili',
       title: t('settings.menu_bilibili_settings'),
     },
     {
