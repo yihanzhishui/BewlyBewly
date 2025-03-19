@@ -21,12 +21,12 @@ import SettingsItemGroup from '../components/SettingsItemGroup.vue'
       </SettingsItemGroup>
     </SettingsItemGroup>
 
-    <!-- <SettingsItemGroup :title="$t('settings.url_trim_settings')">
+    <SettingsItemGroup :title="$t('settings.url_trim_settings')">
       <SettingsItemGroup>
         <SettingsItem :title="$t('settings.clean_url_argument')">
           <Radio v-model="settings.cleanUrlArgument" />
         </SettingsItem>
       </SettingsItemGroup>
-    </SettingsItemGroup> -->
+    </SettingsItemGroup>
   </div>
 </template>
