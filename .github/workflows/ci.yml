@@ -74,7 +74,7 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' && matrix.node == 'lts/*' && github.ref_name == 'main' }}
         uses: actions/upload-artifact@v4.3.1
         with:
-          name: BewlyBewly Zip
+          name: extension-ci
           path: extension
 
       - name: Build Extension-Firefox
@@ -84,5 +84,5 @@ jobs:
         if: ${{ matrix.os == 'ubuntu-latest' && matrix.node == 'lts/*' && github.ref_name == 'main' }}
         uses: actions/upload-artifact@v4.3.1
         with:
-          name: BewlyBewly-Firefox Zip
+          name: extension-firefox-ci
           path: extension-firefox
