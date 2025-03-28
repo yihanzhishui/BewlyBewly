@@ -84,6 +84,7 @@ const forceWhiteIcon = computed((): boolean => {
     || /https?:\/\/space.bilibili\.com\.*/.test(location.href)
     // premium page bilibili 大會員頁
     || /https?:\/\/account\.bilibili\.com\/big.*$/.test(location.href)
+    || /https?:\/\/(?:www\.)?bilibili\.com\/c\/(?!popular).*/.test(location.href)
   ) {
     return true
   }
