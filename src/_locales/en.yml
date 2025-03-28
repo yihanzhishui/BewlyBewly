@@ -284,6 +284,7 @@ settings:
   block_vip_danmuku_style: Block VIP danmuku style
   url_trim_settings: URL Trim
   clean_url_argument: Remove unnecessary URL argument
+  bv_to_av: Convert BV number to AV number
 
   # About
   links: Links

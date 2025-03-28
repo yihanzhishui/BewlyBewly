@@ -26,6 +26,9 @@ import SettingsItemGroup from '../components/SettingsItemGroup.vue'
         <SettingsItem :title="$t('settings.clean_url_argument')">
           <Radio v-model="settings.cleanUrlArgument" />
         </SettingsItem>
+        <SettingsItem :title="$t('settings.bv_to_av')">
+          <Radio v-model="settings.bvToAv" />
+        </SettingsItem>
       </SettingsItemGroup>
     </SettingsItemGroup>
   </div>

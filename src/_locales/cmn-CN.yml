@@ -279,6 +279,7 @@ settings:
   block_vip_danmuku_style: 屏蔽大会员弹幕的彩色样式（使其和正常弹幕使用相同样式）
   url_trim_settings: 页面 URL 优化
   clean_url_argument: 清理 URL 无用参数
+  bv_to_av: 将 BV 号转为 AV 号
 
   # About
   links: 链接

@@ -470,6 +470,43 @@ if (settings.value.cleanUrlArgument) {
   }
 }
 
+if (settings.value.bvToAv) {
+  const TABLE = 'FcwAPNKTMug3GV5Lj7EJnHpWsx4tb8haYeviqBz6rkCy12mUSDQX9RdoZf'
+  const XOR_CODE = 23442827791579n
+  const MASK = (1n << 51n) - 1n
+
+  function bv2av(bv: string): string {
+    if (!bv.startsWith('BV1'))
+      return bv
+    const chars = [...bv];
+    [chars[3], chars[9]] = [chars[9], chars[3]];
+    [chars[4], chars[7]] = [chars[7], chars[4]]
+
+    let tmp = 0n
+    for (const c of chars.slice(3)) {
+      tmp = tmp * 58n + BigInt(TABLE.indexOf(c))
+    }
+    return `av${((tmp & MASK) ^ XOR_CODE).toString()}`
+  }
+
+  function handleUrl() {
+    const match = window.location.pathname.match(/(\/video\/)(BV1[\dA-Za-z]{9})/)
+    if (!match)
+      return
+
+    const av = bv2av(match[2])
+    if (av === match[2])
+      return
+
+    const newUrl = window.location.href.replace(match[2], av)
+    history.replaceState(null, '', newUrl)
+  }
+
+  window.addEventListener('popstate', handleUrl)
+  new MutationObserver(handleUrl).observe(document, { subtree: true, childList: true })
+  handleUrl()
+}
+
 const removeLeftQuoteIndent = document.createElement('style')
 removeLeftQuoteIndent.textContent = `
 .video-info-container .special-text-indent[data-title^='“'],a[title^='“'],p[title^='“'],h3[title^='“'] {

@@ -111,6 +111,7 @@ export interface Settings {
   blockTopSearchPageAds: boolean
   blockVIPDanmukuStyle: boolean
   cleanUrlArgument: boolean
+  bvToAv: boolean
 }
 
 export const originalSettings: Settings = {
@@ -217,6 +218,7 @@ export const originalSettings: Settings = {
   blockTopSearchPageAds: true,
   blockVIPDanmukuStyle: false,
   cleanUrlArgument: false,
+  bvToAv: false,
 }
 
 export const settings = useStorageLocal('settings', ref<Settings>(originalSettings), { mergeDefaults: true })
