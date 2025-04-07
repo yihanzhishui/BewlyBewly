@@ -161,7 +161,7 @@ export const originalSettings: Settings = {
   disableDockGlowingEffect: false,
   disableLightDarkModeSwitcherOnDock: false,
   backToTopAndRefreshButtonsAreSeparated: true,
-  enableUndoRefreshButton: false, // 默认关闭撤销刷新按钮
+  enableUndoRefreshButton: true,
 
   sidebarPosition: 'right',
   autoHideSidebar: false,
@@ -223,7 +223,7 @@ export const originalSettings: Settings = {
   blockAds: true,
   blockTopSearchPageAds: true,
   blockVIPDanmukuStyle: false,
-  cleanUrlArgument: false,
+  cleanUrlArgument: true,
   bvToAv: false,
 }
 
