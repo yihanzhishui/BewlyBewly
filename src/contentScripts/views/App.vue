@@ -380,6 +380,11 @@ fontStyles.textContent = `
     font-family: "NotoSansCJKSCVF-BewlyInternalResource"; /* CJK 新字形 */
     src: url(${browser.runtime.getURL('/assets/fonts/NotoSansCJKsc-VF.ttf')}) format("truetype-variations");
 }
+
+@font-face {
+    font-family: "GeistMono-BewlyInternalResource"; /* 等宽 */
+    src: url(${browser.runtime.getURL('/assets/fonts/GeistMono[wght].woff2')}) format("woff2-variations");
+}
 `
 
 document.head.appendChild(fontStyles)
