@@ -43,11 +43,13 @@ const scrollbarRef = ref()
 const handlePageRefresh = ref<() => void>()
 const handleReachBottom = ref<() => void>()
 const handleUndoRefresh = ref<() => void>()
+const handleForwardRefresh = ref<() => void>()
 const showUndoButton = ref<boolean>(false)
 const handleThrottledPageRefresh = useThrottleFn(() => handlePageRefresh.value?.(), 500)
 const handleThrottledReachBottom = useThrottleFn(() => handleReachBottom.value?.(), 500)
 const handleThrottledBackToTop = useThrottleFn(() => handleBackToTop(), 1000)
 const handleThrottledPageUnRefresh = useThrottleFn(() => handleUndoRefresh.value?.(), 500)
+const handleThrottledPageForwardRefresh = useThrottleFn(() => handleForwardRefresh.value?.(), 500)
 const topBarRef = ref()
 const reachTop = ref<boolean>(true)
 
@@ -329,6 +331,7 @@ provide<BewlyAppProvider>('BEWLY_APP', {
   handlePageRefresh,
   handleReachBottom,
   handleUndoRefresh,
+  handleForwardRefresh,
   showUndoButton,
   openIframeDrawer,
   haveScrollbar,
@@ -559,6 +562,7 @@ document.head.appendChild(removeLeftQuoteIndent)
         @settings-visibility-change="toggleSettings"
         @refresh="handleThrottledPageRefresh"
         @undo-refresh="handleThrottledPageUnRefresh"
+        @forward-refresh="handleThrottledPageForwardRefresh"
         @back-to-top="handleThrottledBackToTop"
         @dock-item-click="handleDockItemClick"
       />
