@@ -82,9 +82,7 @@ img {
   line-height: 1.4;
 
   * {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
   }
 
   .keep-two-lines {
