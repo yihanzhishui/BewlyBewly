@@ -341,12 +341,7 @@ provide<BewlyAppProvider>('BEWLY_APP', {
 const fontStyles = document.createElement('style')
 fontStyles.textContent = `
 @font-face {
-    font-family: "Comme-BewlyInternalResource"; /* 西文A */
-    src: url(${browser.runtime.getURL('/assets/fonts/Comme[wght].woff2')}) format("woff2-variations");
-}
-
-@font-face {
-    font-family: "Cantarell-BewlyInternalResource"; /* 西文B */
+    font-family: "Cantarell-BewlyInternalResource"; /* 西文 */
     src: url(${browser.runtime.getURL('/assets/fonts/Cantarell-VF.otf')}) format("opentype-variations");
 }
 
