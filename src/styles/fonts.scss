@@ -18,11 +18,11 @@
   --bew-fonts-cantonese: var(--bew-fonts-basic), "PingFang HK", "Source Han Sans HC VF", "Noto Sans CJK HK",
     "Source Han Sans HC", "Microsoft JhengHei", var(--bew-fonts-fallback);
 
-  --bew-fonts-recommend: bilifont, CJKPunctuation-BewlyInternalResource, SubscriptSuperscript-BewlyInternalResource,
-    Comme-BewlyInternalResource, ShangguSansSCVF-BewlyInternalResource, var(--bew-fonts-fallback);
+  --bew-fonts-recommend: bilifont, Comme-BewlyInternalResource, ShangguSansSCVF-BewlyInternalResource,
+    var(--bew-fonts-fallback);
 
-  --bew-fonts-recommend-new: bilifont, CJKPunctuation-BewlyInternalResource, SubscriptSuperscript-BewlyInternalResource,
-    TASAOrbiterVF-BewlyInternalResource, "PingFang SC", NotoSansCJKSCVF-BewlyInternalResource, var(--bew-fonts-fallback);
+  --bew-fonts-recommend-new: bilifont, Cantarell-BewlyInternalResource, "PingFang SC",
+    NotoSansCJKSCVF-BewlyInternalResource, var(--bew-fonts-fallback);
 }
 
 .bewly-wrapper,

@@ -341,37 +341,18 @@ provide<BewlyAppProvider>('BEWLY_APP', {
 const fontStyles = document.createElement('style')
 fontStyles.textContent = `
 @font-face {
-    font-family: "CJKPunctuation-BewlyInternalResource"; /* 引號、省略号 */
-    unicode-range: U+2018-2019, U+201C-201D, U+2026;
-    src: url(${browser.runtime.getURL('/assets/fonts/Geist-subset.woff2')}) format("woff2-variations");
+    font-family: "Comme-BewlyInternalResource"; /* 西文A */
+    src: url(${browser.runtime.getURL('/assets/fonts/Comme[wght].woff2')}) format("woff2-variations");
 }
 
 @font-face {
-    font-family: "CJKPunctuation-BewlyInternalResource"; /* 破折号 em dash */
-    unicode-range: U+2014;
-    src: url(${browser.runtime.getURL('/assets/fonts/Inter-subset.woff2')}) format("woff2-variations");
+    font-family: "Cantarell-BewlyInternalResource"; /* 西文B */
+    src: url(${browser.runtime.getURL('/assets/fonts/Cantarell-VF.otf')}) format("opentype-variations");
 }
 
 @font-face {
-    font-family: "CJKPunctuation-BewlyInternalResource"; /* 破折号 2em dash、3em dash。尚古自带的太丑（太细） */
-    unicode-range: U+2E3A-2E3B;
-    src: url(${browser.runtime.getURL('/assets/fonts/ZhudouSans-subset.woff2')}) format("woff2-variations");
-}
-
-@font-face {
-    font-family: "SubscriptSuperscript-BewlyInternalResource"; /* 下標上標 */
-    unicode-range: U+00B2-00B3, U+00B9, U+2070-2071, U+2074-208E, U+2090-209C;
-    src: url(${browser.runtime.getURL('/assets/fonts/Inter-subset.woff2')}) format("woff2-variations");
-}
-
-@font-face {
-    font-family: "Comme-BewlyInternalResource"; /* 西文 1 */
-    src: url(${browser.runtime.getURL('/assets/fonts/Comme.woff2')}) format("woff2-variations");
-}
-
-@font-face {
-    font-family: "TASAOrbiterVF-BewlyInternalResource"; /* 西文 2 */
-    src: url(${browser.runtime.getURL('/assets/fonts/TASAOrbiterVF.woff2')}) format("woff2-variations");
+    font-family: "GeistMono-BewlyInternalResource"; /* 西文等宽 */
+    src: url(${browser.runtime.getURL('/assets/fonts/GeistMono[wght].woff2')}) format("woff2-variations");
 }
 
 @font-face {
@@ -382,11 +363,6 @@ fontStyles.textContent = `
 @font-face {
     font-family: "NotoSansCJKSCVF-BewlyInternalResource"; /* CJK 新字形 */
     src: url(${browser.runtime.getURL('/assets/fonts/NotoSansCJKsc-VF.ttf')}) format("truetype-variations");
-}
-
-@font-face {
-    font-family: "GeistMono-BewlyInternalResource"; /* 等宽 */
-    src: url(${browser.runtime.getURL('/assets/fonts/GeistMono[wght].woff2')}) format("woff2-variations");
 }
 `
 
