@@ -196,6 +196,14 @@ async function checkGitHubRelease() {
             </Button>
           </div>
         </section>
+        <section w-full>
+          <h3 class="title">
+            为什么这个项目叫 BewlyBewly! Ave Mujica？
+          </h3>
+          <div flex="~ gap-2">
+            CRYCHIC 死了，Ave Mujica 并不完美。BewlyBewly! Ave Mujica 也是如此。
+          </div>
+        </section>
       </section>
     </div>
   </div>
