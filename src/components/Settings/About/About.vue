@@ -198,7 +198,7 @@ async function checkGitHubRelease() {
         </section>
         <section w-full>
           <h3 class="title">
-            为什么这个项目叫 BewlyBewly! Ave Mujica？
+            为什么这个项目叫“BewlyBewly! Ave Mujica”？
           </h3>
           <div flex="~ gap-2">
             CRYCHIC 死了，Ave Mujica 并不完美。BewlyBewly! Ave Mujica 也是如此。
