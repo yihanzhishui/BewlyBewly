@@ -346,8 +346,8 @@ fontStyles.textContent = `
 }
 
 @font-face {
-    font-family: "GeistMono-BewlyInternalResource"; /* 西文等宽 */
-    src: url(${browser.runtime.getURL('/assets/fonts/GeistMono[wght].woff2')}) format("woff2-variations");
+    font-family: "RedditMono-BewlyInternalResource"; /* 西文等宽 */
+    src: url(${browser.runtime.getURL('/assets/fonts/RedditMono[wght].woff2')}) format("woff2-variations");
 }
 
 @font-face {
