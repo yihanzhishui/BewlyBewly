@@ -298,7 +298,7 @@ settings:
   advanced_options: Advanced Options
   contributors: Contributors
 
-  filter_like_view_ratio: Filter by like-to-play ratio
+  filter_like_view_ratio: Filter by like-to-play ratio (only effective in Web recommendation mode)
   filter_like_view_ratio_desc: Filter out videos with a like-to-play ratio lower than 1:10.
   enable_undo_refresh_button: Enable Undo Refresh Button
   enable_undo_refresh_button_desc: >-
