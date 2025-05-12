@@ -3,7 +3,7 @@
 [English](README.md) | 官话 - 简体中文 | [官話 - 繁體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
 
 <p align="center" style="margin-bottom: 0px !important;">
-<img width="300" alt="BewlyBewly! Ave Mujica icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly-AveMujica/assets/bewly-ave-mujica-style-logo.svg"><br/>
+<img width="300" alt="BewlyBewly! Ave Mujica icon" src="https://github.com/VentusUta/BewlyBewly-AveMujica/raw/refs/heads/main/assets/bewly-ave-mujica-style-logo.svg"><br/>
 </p>
 
 <p align="center">对您的 bilibili 页面进行一些小更改。</p>
