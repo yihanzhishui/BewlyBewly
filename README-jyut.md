@@ -3,7 +3,7 @@
 [English](README.md) | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](README-cmn_TW.md) | 廣東話
 
 <p align="center" style="margin-bottom: 0px !important;">
-<img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
+<img width="300" alt="BewlyBewly! Ave Mujica icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly-AveMujica/assets/bewly-ave-mujica-style-logo.svg"><br/>
 </p>
 
 <p align="center">係咁以執吓你嘅 bilibili 頁面。</p>
