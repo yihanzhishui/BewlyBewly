@@ -33,11 +33,12 @@ function injectFunction(
   }
 }
 
+// 注入 history.pushState 调用以触发自定义的 pushstate 事件，用于监控 iframe drawer 路由变化
 injectFunction(
   window.history,
-  ['pushState', 'forward', 'replaceState'],
+  ['pushState'],
   (...args) => {
-    window.dispatchEvent(new CustomEvent('historyChange', { detail: args }))
+    window.dispatchEvent(new CustomEvent('pushstate', { detail: args }))
   },
 )
 
