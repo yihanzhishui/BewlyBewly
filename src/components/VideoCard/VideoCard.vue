@@ -79,7 +79,7 @@ const previewVideoUrl = ref<string>('')
 const contentVisibility = ref<'auto' | 'visible'>('auto')
 const videoElement = ref<HTMLVideoElement | null>(null)
 
-watch(() => isHover.value, async (newValue) => {
+watch(() => isHover.value, async (newValue: boolean) => {
   if (!props.video || !newValue)
     return
 
@@ -165,7 +165,7 @@ function handelMouseLeave() {
 }
 
 function handleClick(event: MouseEvent) {
-  videoCurrentTime.value = getCurrentTime(videoElement)
+  videoCurrentTime.value = getCurrentTime(videoElement as Ref<HTMLVideoElement | null>)
 
   if (settings.value.videoCardLinkOpenMode === 'drawer' && videoUrl.value && !event.ctrlKey && !event.metaKey) {
     event.preventDefault()
@@ -221,7 +221,7 @@ function handleUndo() {
     api.video.undoDislikeVideo({
       ...params,
       sign: getTvSign(params),
-    }).then((res) => {
+    }).then((res: any) => {
       if (res.code === 0) {
         removed.value = false
       }
@@ -370,7 +370,7 @@ provide('getVideoType', () => props.type!)
                 transform="scale-70 group-hover/cover:scale-100"
                 duration-300
                 pos="absolute top-0 left-0" z-2
-                @click.stop=""
+                @click.stop
               >
                 <slot name="coverTopLeft" />
               </div>
@@ -460,61 +460,65 @@ provide('getVideoType', () => props.type!)
                   <div i-mingcute:more-2-line text="lg" />
                 </div>
               </div>
-              <div text="sm $bew-text-2" w-fit m="t-2" flex="~ items-center wrap">
-                <!-- Author Avatar -->
-                <span
-                  :style="{
-                    marginBottom: horizontal ? '0.5rem' : '0',
-                  }"
-                  flex="inline items-center"
-                >
-                  <VideoCardAuthorAvatar
-                    v-if="horizontal && video.author"
-                    :author="video.author"
-                    :is-live="video.liveStatus === 1"
-                  />
-                  <VideoCardAuthorName
-                    :author="video.author"
-                  />
-                </span>
-              </div>
+              <div flex justify-between items-center>
+                <div flex="~ col">
+                  <div text="sm $bew-text-2" w-fit m="t-2" flex="~ items-center wrap">
+                    <!-- Author Avatar -->
+                    <span
+                      :style="{
+                        marginBottom: horizontal ? '0.5rem' : '0',
+                      }"
+                      flex="inline items-center"
+                    >
+                      <VideoCardAuthorAvatar
+                        v-if="horizontal && video.author"
+                        :author="video.author"
+                        :is-live="video.liveStatus === 1"
+                      />
+                      <VideoCardAuthorName
+                        :author="video.author"
+                      />
+                    </span>
+                  </div>
 
-              <div flex="~ items-center gap-1 wrap">
-                <!-- View & Danmaku Count -->
-                <div
-                  text="sm $bew-text-2" rounded="$bew-radius"
-                  inline-block
-                >
-                  <span v-if="video.view || video.viewStr">
-                    {{ video.view ? $t('common.view', { count: numFormatter(video.view) }, video.view) : `${numFormatter(video.viewStr || '0')}${$t('common.viewWithoutNum')}` }}
-                  </span>
-                  <template v-if="video.danmaku || video.danmakuStr">
-                    <span text-xs font-light mx-4px>•</span>
-                    <span>{{ video.danmaku ? $t('common.danmaku', { count: numFormatter(video.danmaku) }, video.danmaku) : `${numFormatter(video.danmakuStr || '0')}${$t('common.danmakuWithoutNum')}` }}</span>
-                  </template>
-                  <br>
+                  <div flex="~ items-center gap-1 wrap">
+                    <!-- View & Danmaku Count -->
+                    <div
+                      text="sm $bew-text-2" rounded="$bew-radius"
+                      inline-block
+                    >
+                      <span v-if="video.view || video.viewStr">
+                        {{ video.view ? $t('common.view', { count: numFormatter(video.view) }, video.view) : `${numFormatter(video.viewStr || '0')}${$t('common.viewWithoutNum')}` }}
+                      </span>
+                      <template v-if="video.danmaku || video.danmakuStr">
+                        <span text-xs font-light mx-4px>•</span>
+                        <span>{{ video.danmaku ? $t('common.danmaku', { count: numFormatter(video.danmaku) }, video.danmaku) : `${numFormatter(video.danmakuStr || '0')}${$t('common.danmakuWithoutNum')}` }}</span>
+                      </template>
+                      <br>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div mt-2 flex="~ gap-1 wrap" text="sm">
-                <!-- Tag -->
-                <span
-                  v-if="video.tag"
-                  text="$bew-theme-color" lh-6 p="x-2" rounded="$bew-radius" bg="$bew-theme-color-20"
-                >
-                  {{ video.tag }}
-                </span>
-                <span
-                  v-if="video.publishedTimestamp || video.capsuleText"
-                  bg="$bew-fill-1" p="x-2" rounded="$bew-radius" text="$bew-text-3" lh-6
-                  mr-1
-                >
-                  {{ video.publishedTimestamp ? calcTimeSince(video.publishedTimestamp * 1000) : video.capsuleText?.trim() }}
-                </span>
-                <!-- Video type -->
-                <span text="$bew-text-2" grid="~ place-items-center">
-                  <div v-if="video.type === 'vertical'" i-mingcute:cellphone-2-line />
-                  <div v-else-if="video.type === 'bangumi'" i-mingcute:movie-line />
-                </span>
+                <div mt-2 flex="~ gap-1 wrap" text="sm">
+                  <!-- Tag -->
+                  <span
+                    v-if="video.tag"
+                    text="$bew-theme-color" lh-6 p="x-2" rounded="$bew-radius" bg="$bew-theme-color-20"
+                  >
+                    {{ video.tag }}
+                  </span>
+                  <span
+                    v-if="video.publishedTimestamp || video.capsuleText"
+                    bg="$bew-fill-1" p="x-2" rounded="$bew-radius" text="$bew-text-3" lh-6
+                    mr-1
+                  >
+                    {{ video.publishedTimestamp ? calcTimeSince(video.publishedTimestamp * 1000) : video.capsuleText?.trim() }}
+                  </span>
+                  <!-- Video type -->
+                  <span text="$bew-text-2" grid="~ place-items-center">
+                    <div v-if="video.type === 'vertical'" i-mingcute:cellphone-2-line />
+                    <div v-else-if="video.type === 'bangumi'" i-mingcute:movie-line />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
