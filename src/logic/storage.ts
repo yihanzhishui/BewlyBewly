@@ -208,7 +208,7 @@ export const originalSettings: Settings = {
   enableFilterByUser: false,
   filterByUser: [],
 
-  followingTabShowLivestreamingVideos: true,
+  followingTabShowLivestreamingVideos: false,
 
   homePageTabVisibilityList: [],
   alwaysShowTabsOnHomePage: false,

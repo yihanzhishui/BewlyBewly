@@ -11,6 +11,37 @@ const { t } = useI18n()
 const importSettingsRef = ref<HTMLElement>()
 const hasNewVersion = ref<boolean>(false)
 
+// const isSafari = computed((): boolean =>
+//   /^(?:(?!chrome|android).)*safari/i.test(navigator.userAgent),
+// )
+
+// const safariHelpers = computed((): { name: string, avatar: string, url: string, desc: string }[] => [
+//   {
+//     name: 'exgphe',
+//     avatar: '/assets/twitterUsers/exgphe.png',
+//     url: 'https://github.com/exgphe',
+//     desc: t('settings.safari_helpers_desc1'),
+//   },
+//   {
+//     name: '𝗦𝘁𝗲𝘃𝗲 𝕏',
+//     avatar: '/assets/twitterUsers/st7evechou.jpg',
+//     url: 'https://x.com/st7evechou',
+//     desc: t('settings.safari_helpers_desc2'),
+//   },
+//   {
+//     name: '雪谋 🏖️',
+//     avatar: '/assets/twitterUsers/YukiHakarigoto.jpg',
+//     url: 'https://x.com/YukiHakarigoto',
+//     desc: t('settings.safari_helpers_desc3'),
+//   },
+//   {
+//     name: 'Citron🍢',
+//     avatar: '/assets/twitterUsers/vanillaCitron.jpg',
+//     url: 'https://x.com/vanillaCitron',
+//     desc: t('settings.safari_helpers_desc4'),
+//   },
+// ])
+
 const isDev = computed((): boolean => import.meta.env.DEV)
 
 onMounted(() => {
@@ -97,7 +128,7 @@ async function checkGitHubRelease() {
 
 <template>
   <div>
-    <div max-w-600px mx-auto>
+    <div max-w-800px mx-auto>
       <div relative w-200px m-auto>
         <img
           :src="`${browser.runtime.getURL('/assets/bewly-ave-mujica-style-logo.svg')}`" alt="" width="200"
@@ -127,7 +158,7 @@ async function checkGitHubRelease() {
             href="https://github.com/VentusUta/BewlyBewly-AveMujica/releases" target="_blank"
             un-text="sm color-$bew-text-2 hover:color-$bew-text-3"
           >
-            v{{ version }}
+            v{{ version }} - Farewell
           </a>
         </p>
       </section>
@@ -141,7 +172,7 @@ async function checkGitHubRelease() {
           <h3 class="title">
             {{ $t('settings.links') }}
           </h3>
-          <div grid="~ xl:cols-5 lg:cols-4 md:cols-3 cols-2 gap-2">
+          <div grid="~ xl:cols-6 lg:cols-5 md:cols-4 cols-3 gap-2">
             <a
               href="https://github.com/VentusUta/BewlyBewly-AveMujica" target="_blank"
               class="link-card"

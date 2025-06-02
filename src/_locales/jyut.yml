@@ -181,7 +181,7 @@ settings:
     dark: 深色
     auto: 自動
   theme_color: 主題色
-  gradient_theme_color_background: 使用漸層主題色作為深色模式嘅背景
+  gradient_theme_color_background: 使用漸層主題色作爲深色模式嘅背景
   wallpaper_mode: 背景圖片模式
   wallpaper_mode_desc: 使用網址：直接用網上圖片嘅網址嚟到設定背景圖片。
   wallpaper_mode_opt:

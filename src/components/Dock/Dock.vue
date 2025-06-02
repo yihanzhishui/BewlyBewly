@@ -439,7 +439,7 @@ const dockTransformStyle = computed((): { transform: string, transformOrigin: st
             <Icon
               v-if="showUndoButton"
               icon="mdi:undo-variant"
-              shrink-0 absolute text-2xl
+              shrink-0 absolute text-2xls
             />
             <Icon
               v-else-if="showForwardButton"

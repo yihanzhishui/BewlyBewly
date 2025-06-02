@@ -52,6 +52,9 @@ export function setupNecessarySettingsWatchers() {
   watch(
     [() => settings.value.customizeFont, () => settings.value.fontFamily],
     () => {
+      if (typeof settings.value.customizeFont === 'boolean')
+        settings.value.customizeFont = 'recommend'
+
       // Set the default font family
       if ((settings.value.customizeFont === 'default'
         || settings.value.customizeFont === 'recommend'
@@ -85,24 +88,10 @@ export function setupNecessarySettingsWatchers() {
   watch(
     () => settings.value.overrideDanmakuFont,
     () => {
-      let fallbackFontFamily = ''
-      if (locale.value === LanguageType.Mandarin_CN) {
-        fallbackFontFamily = 'var(--bew-fonts-mandarin-cn)'
-      }
-      else if (locale.value === LanguageType.Mandarin_TW) {
-        fallbackFontFamily = 'var(--bew-fonts-mandarin-tw)'
-      }
-      else if (locale.value === LanguageType.Cantonese) {
-        fallbackFontFamily = 'var(--bew-fonts-cantonese)'
-      }
-      else {
-        fallbackFontFamily = 'var(--bew-fonts-english)'
-      }
-
       if (settings.value.overrideDanmakuFont) {
         danmakuFontStyleEl = injectCSS(`
-          .bewly-design .bili-danmaku-x-dm {
-            font-family: var(--bew-font-family, ${fallbackFontFamily}) !important;
+          .bewly-design.modify-fonts .bili-danmaku-x-dm {
+            font-family: var(--bew-fonts) !important;
           }
         `)
       }
